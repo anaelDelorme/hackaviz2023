@@ -145,6 +145,8 @@ Credits:
 			"Bent IX"
 			"Air Lounge"
 
+			Image par <a href="https://pixabay.com/fr/users/bluetenkuss-27165192/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7288138">Saskia Plötz</a> de <a href="https://pixabay.com/fr//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7288138">Pixabay</a>
+
 	Icons:
 		Font Awesome (fontawesome.io)
 
