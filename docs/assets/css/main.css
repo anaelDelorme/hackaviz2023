@@ -1930,7 +1930,7 @@ input, select, textarea {
 	}
 
 		.main > .content {
-			width: 45em;
+			width: 25em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
 		}
