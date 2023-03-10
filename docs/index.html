@@ -22,7 +22,7 @@
 				<nav>
 					<ul>
 						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">What I Do</a></li>
+						<li><a href="#one">Idée 1</a></li>
 						<li><a href="#two">Who I Am</a></li>
 						<li><a href="#work">My Work</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -46,42 +46,12 @@
 
 		<!-- One -->
 			<section id="one" class="main style2 right dark fullscreen">
-				<div id="echarts_test">
-					<script type="text/javascript">
-						// Initialize the echarts instance based on the prepared dom
-						var myChart = echarts.init(document.getElementById('echarts_test'));
-						// Specify the configuration items and data for the chart
-						var option = {
-							title: {
-							text: 'ECharts Getting Started Example'
-							},
-							tooltip: {},
-							legend: {
-							data: ['sales']
-							},
-							xAxis: {
-							data: ['Shirts', 'Cardigans', 'Chiffons', 'Pants', 'Heels', 'Socks']
-							},
-							yAxis: {},
-							series: [
-							{
-								name: 'sales',
-								type: 'bar',
-								data: [5, 20, 36, 10, 10, 20]
-							}
-							]
-						};
-						// Display the chart using the configuration items and data just specified.
-						myChart.setOption(option);
-						</script>
-				</div>
+
 				<div class="content box style2">
 					<header>
-						<h2>What I Do</h2>
+						<h2>Idée 1</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<div id="charts" style="width: 600px;height:400px;"></div>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -156,6 +126,12 @@
 				</div>
 			</section>
 
+
+<!-- Prepare a DOM with a defined width and height for ECharts -->
+  
+
+
+
 		<!-- Footer -->
 			<footer id="footer">
 
@@ -187,8 +163,36 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/echarts.js"></script>
+			<!-- <script src="assets/js/echarts.js"></script>-->
+<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"></script>
+  <script type="text/javascript">
+      // Initialize the echarts instance based on the prepared dom
+      var myChart = echarts.init(document.getElementById('charts'));
 
+      // Specify the configuration items and data for the chart
+      var option = {
+       // title: {
+         // text: 'ECharts Getting Started Example'
+        //},
+        tooltip: {},
+        legend: {
+          data: ['sales']
+        },
+        xAxis: {
+          data: ['Shirts', 'Cardigans', 'Chiffons', 'Pants', 'Heels', 'Socks']
+        },
+        yAxis: {},
+        series: [
+          {
+            name: 'sales',
+            type: 'bar',
+            data: [5, 20, 36, 10, 10, 20]
+          }
+        ]
+      };
 
+      // Display the chart using the configuration items and data just specified.
+      myChart.setOption(option);
+    </script>
 	</body>
 </html>
