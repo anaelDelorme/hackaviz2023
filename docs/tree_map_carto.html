@@ -109,13 +109,7 @@ chart_carto_ope.setOption(option_carto_ope);
             document.getElementById('carto_ope'), 'white', {renderer: 'canvas'});
         var option_carto_ope = {
                 "backgroundColor": '#000',
-                "title": {
-                    "text": 'Bornes électriques',
-                    "left": 'center',
-                    "textStyle": {
-                    "color": '#fff'
-                    }
-                },
+               
                 "geo": {
                   "map": 'world',
                   "roam": true,
@@ -292,23 +286,7 @@ chart_carto_ope.setOption(option_carto_ope);
         "borderWidth": 0,
         "padding": 5,
         "order": "seriesAsc"
-    },
-    "title": [
-        {
-            "show": true,
-            "text": "Nombre de bornes par op\u00e9rateur",
-            "target": "blank",
-            "subtarget": "blank",
-            "left": "leafDepth",
-            "padding": 5,
-            "itemGap": 10,
-            "textAlign": "auto",
-            "textVerticalAlign": "auto",
-            "triggerEvent": false,
-                                "color": '#fff',
-
-        }
-    ]
+    }
 };
         chart_treemap_ope.setOption(option_treemap_ope);
 
