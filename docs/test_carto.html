@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+             <script src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+
+
+</head>
+<body>
+
+
+      <div>
+        <button onclick="filter('all', data_brutes)">Tous</button>
+        <button onclick="filter('true', data_brutes)">Gratuit</button>
+    </div>
+    <div id="c6db6b2dd2504737b89137b78f94b6e5" class="chart-container" style="width:800px; height:900px;"></div>
+
+    <script>
+       var data_brutes = [];
+        function loadCsv() {
+            Papa.parse('https://anaeldelorme.github.io/hackaviz2023/assets/borne_loc.csv', {
+                header: true,
+                download: true,
+                complete: function(results) {
+                    processData(results.data);
+                }
+            });
+        }
+
+        function processData(data) {
+          var newData = data.map(function(item) {
+              return [
+                  //lon: parseFloat(item.lon), 
+                  //lat: parseFloat(item.lat)
+                   parseFloat(item.lon), 
+                   parseFloat(item.lat),
+                   parseInt(item.id) % 2 === 0 ? true : item.gratuit === "true"
+                    //item.gratuit === "TRUE" // Ajout d'une propriété "gratuit" en tant que boolean
+              ];
+          });
+          //filter('all', newData); // Filtrer tous les éléments par défaut
+          data_brutes = newData
+            option_c6db6b2dd2504737b89137b78f94b6e5.series[0].data = data_brutes;
+  chart_c6db6b2dd2504737b89137b78f94b6e5.setOption(option_c6db6b2dd2504737b89137b78f94b6e5);
+      }
+
+    </script>
+
+    
+<script>
+function filter(gratuit, data) {
+  var filteredData = [];
+  if (!data) {
+    data = data_brutes;
+  }
+  if (gratuit === 'all') {
+    filteredData = data;
+  } 
+  if (gratuit === 'true'){
+
+       function filterGratuit(borne){
+          return borne[2] === true;
+       }
+       filteredData = data.filter(filterGratuit);
+
+    }
+    
+
+option_c6db6b2dd2504737b89137b78f94b6e5.series[0].data = filteredData;
+chart_c6db6b2dd2504737b89137b78f94b6e5.setOption(option_c6db6b2dd2504737b89137b78f94b6e5);
+
+
+}
+
+    </script>
+
+
+    <script>
+        var chart_c6db6b2dd2504737b89137b78f94b6e5 = echarts.init(
+            document.getElementById('c6db6b2dd2504737b89137b78f94b6e5'), 'white', {renderer: 'canvas'});
+        var option_c6db6b2dd2504737b89137b78f94b6e5 = {
+                "backgroundColor": '#000',
+                "title": {
+                    "text": 'Bornes électriques',
+                    "left": 'center',
+                    "textStyle": {
+                    "color": '#fff'
+                    }
+                },
+                "geo": {
+                  "map": 'world',
+                  "roam": true,
+                  "center": [1.3, 46],
+                      "zoom": 25,
+                      "roam": true,
+                  "label": {
+                    "emphasis": {
+                      "show": false
+                    }
+                  },
+                  "silent": true,
+                  "itemStyle": {
+                    "normal": {
+                      "areaColor": '#323c48',
+                      "borderColor": '#111'
+                    },
+                    "emphasis": {
+                      "areaColor": '#2a333d'
+                    }
+                  }
+                },
+
+                series:[{
+                  "type": "scatterGL",
+                  "symbol": "circle",
+                  "name": "geo",
+                  "coordinateSystem": "geo",
+                  "progressive": 1e6,
+                  "symbolSize": 2,
+                  "zoomScale": 0.0002,
+                  "blendMode": 'lighter',
+                  "large": true,
+                  "itemStyle": {
+                    "color": 'rgb(20, 15, 2)'
+                  },
+                  "postEffect": {
+                    "enable": true
+                  },
+                  "silent": true,
+                  "dimensions": ['lon', 'lat'],
+                  "data": new Float32Array()
+
+                }]
+              };
+
+        loadCsv();
+        
+    </script>
+</body>
+</html>

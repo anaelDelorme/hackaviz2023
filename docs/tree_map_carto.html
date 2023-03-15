@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+<script src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: row;
+			height: 100vh;
+			background-color: black;
+		}
+
+		.left {
+			flex: 1;
+			background-color: black;
+			height: 100%;
+        
+		}
+
+		.right {
+			flex: 1;
+			background-color: black;
+			height: 100%;
+		}
+	</style>
+
+
+</head>
+<body>
+
+
+<div class="container">
+    <div id="treemap_ope" class="chart-container left"></div>
+
+    <div id="carto_ope" class="chart-container right"></div>
+</div>
+    <script>
+       var data_brutes = [];
+        function loadCsv() {
+            Papa.parse('https://anaeldelorme.github.io/hackaviz2023/assets/borne_elec_localisation.csv', {
+                header: true,
+                download: true,
+                complete: function(results) {
+                    processData(results.data);
+                }
+            });
+        }
+
+        function processData(data) {
+          var newData = data.map(function(item) {
+              return [
+                  //lon: parseFloat(item.lon), 
+                  //lat: parseFloat(item.lat)
+                   parseFloat(item.consolidated_longitude), 
+                   parseFloat(item.consolidated_latitude),
+                   item.ope
+
+                   //parseInt(item.id) % 2 === 0 ? true : item.gratuit === "true"
+                    //item.gratuit === "TRUE" // Ajout d'une propriété "gratuit" en tant que boolean
+              ];
+          });
+          //filter('all', newData); // Filtrer tous les éléments par défaut
+          data_brutes = newData
+            option_carto_ope.series[0].data = data_brutes;
+  chart_carto_ope.setOption(option_carto_ope);
+      }
+
+    </script>
+
+    
+<script>
+function filter(operateur, data) {
+  var filteredData = [];
+  if (!data) {
+    data = data_brutes;
+  }
+  if (operateur === 'all') {
+    filteredData = data;
+  } else {
+    function filterGratuit(borne){
+        if(operateur === 'Autres opérateurs'){
+            operateur = 'Autre'
+        }
+          return borne[2] === operateur;
+       }
+       filteredData = data.filter(filterGratuit);
+
+
+  }
+
+    
+
+option_carto_ope.series[0].data = filteredData;
+chart_carto_ope.setOption(option_carto_ope);
+
+
+}
+
+    </script>
+
+
+    <script>
+        var chart_carto_ope = echarts.init(
+            document.getElementById('carto_ope'), 'white', {renderer: 'canvas'});
+        var option_carto_ope = {
+                "backgroundColor": '#000',
+                "title": {
+                    "text": 'Bornes électriques',
+                    "left": 'center',
+                    "textStyle": {
+                    "color": '#fff'
+                    }
+                },
+                "geo": {
+                  "map": 'world',
+                  "roam": true,
+                  "center": [1.3, 46],
+                      "zoom": 25,
+                      "roam": true,
+                  "label": {
+                    "emphasis": {
+                      "show": false
+                    }
+                  },
+                  "silent": true,
+                  "itemStyle": {
+                    "normal": {
+                      "areaColor": '#323c48',
+                      "borderColor": '#111'
+                    },
+                    "emphasis": {
+                      "areaColor": '#2a333d'
+                    }
+                  }
+                },
+
+                series:[{
+                  "type": "scatterGL",
+                  "symbol": "circle",
+                  "name": "geo",
+                  "coordinateSystem": "geo",
+                  "progressive": 1e6,
+                  "symbolSize": 2,
+                  "zoomScale": 0.0002,
+                  "blendMode": 'lighter',
+                  "large": true,
+                  "itemStyle": {
+                    "color": 'rgb(20, 15, 2)'
+                  },
+                  "postEffect": {
+                    "enable": true
+                  },
+                  "silent": true,
+                  "dimensions": ['lon', 'lat'],
+                  "data": new Float32Array()
+
+                }]
+              };
+
+        loadCsv();
+        
+    </script>
+
+
+    <script>
+        var chart_treemap_ope = echarts.init(
+            document.getElementById('treemap_ope'), 'black', {renderer: 'canvas'});
+        var option_treemap_ope = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "treemap",
+            "data": [
+                {
+                    "value": 12195,
+                    "name": "Autres op\u00e9rateurs"
+                },
+                {
+                    "value": 11985,
+                    "name": "Bouygues E&S"
+                },
+                {
+                    "value": 11921,
+                    "name": "Freshmile SAS"
+                },
+                {
+                    "value": 5605,
+                    "name": "Izivia"
+                },
+                {
+                    "value": 3515,
+                    "name": "TotalEnergies Marketing France"
+                },
+                {
+                    "value": 3265,
+                    "name": "SPIE CITYNETWORKS"
+                },
+                {
+                    "value": 2450,
+                    "name": "SPBR1"
+                }
+            ],
+            "width": "80%",
+            "height": "80%",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8
+            },
+            "upperLabel": {
+                "show": true,
+                "position": "inside",
+                "margin": 8
+            },
+            "leafDepth": 1,
+            "drillDownIcon": "\u25b6",
+            "roam": 'move',
+            "nodeClick": false,
+            "colorMappingBy": "index"
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Nombre de bornes par op\u00e9rateur",
+            "target": "blank",
+            "subtarget": "blank",
+            "left": "leafDepth",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+                                "color": '#fff',
+
+        }
+    ]
+};
+        chart_treemap_ope.setOption(option_treemap_ope);
+
+chart_treemap_ope.on('click', function (params) {
+    var clickedName  = params.data.name;
+         console.log(clickedName);
+        filter(clickedName, data_brutes)
+    // Utilisez clickedName pour mettre à jour votre autre graphique
+});
+
+
+    </script>
+</body>
+</html>
