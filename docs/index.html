@@ -11,7 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		    <script src="echarts.js"></script>
+<style>
+
+
+        
+	</style>
 
 	</head>
 	<body class="is-preload">
@@ -23,9 +27,10 @@
 					<ul>
 						<li><a href="#intro">Intro</a></li>
 						<li><a href="#one">Idée 1</a></li>
-						<li><a href="#two">Who I Am</a></li>
-						<li><a href="#work">My Work</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#operateur_region">Régions</a></li>
+						<li><a href="#idee_3">Idée 3</a></li>
+						<li><a href="#info">Note</a></li>
+						<li><a href="#nous">A propos</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -34,10 +39,9 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<h2>Hey.</h2>
+						<h2>Fracture territoriale</h2>
 					</header>
-					<p>Welcome to <strong>Big Picture</strong> a responsive site template designed by <a href="https://html5up.net">HTML5 UP</a><br />
-					and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p>
+					<p>Les bornes de recharge pour les voitures électriques se déploient en France. Mais une fracture se creuse : zones blanches, opérateurs en position dominante sur des régions entières... <br/>Les Faucheurs de données vous invitent à plonger dans cette fracture.</p>
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
@@ -53,27 +57,30 @@
 					</header>
 					<div id="charts" style="width: 600px;height:400px;"></div>
 				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
+				<a href="#operateur_region" class="button style2 down anchored">Next</a>
 			</section>
 
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Who I Am</h2>
+		<!-- Opérateurs et monopoles régionaux -->
+			<section id="operateur_region" class="main style1 style_petit_titre dark fullscreen">
+				<div class="content_large">
+							<header>
+			<h2> Opérateurs et monopoles régionaux</h2>
+			<p>Dans chacune des régions, un opérateur est très largement en position dominante, avec un risque sur le prix et la qualité de service. Mais surtout cette offre est fragile : un opérateur en difficulté et ce serait une catastrophe pour toute la région.
+				En Occitanie c'est Bouygues E&S qui domine largement.</p>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+						<div id="treemap_ope" class="chart-container"></div>
+						<div id="carto_ope" class="chart-container"></div>
+					
+				
 				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
+				<a href="#idee_3" class="button style2 down anchored">Next</a>
 			</section>
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
+		<!-- idee_3 -->
+			<section id="idee_3" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>My Work</h2>
+						<h2>Idée 3</h2>
 						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
 						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
@@ -102,36 +109,59 @@
 						</div>
 
 				</div>
+								<a href="#info" class="button style2 down anchored">Next</a>
+
 			</section>
 
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content">
+		<!-- One -->
+			<section id="info" class="main style2 left dark fullscreen">
+				<div class="content box style2">
 					<header>
-						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+						<h2>Note</h2>
 					</header>
-					<div class="box">
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-							</div>
-							<ul class="actions special">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</form>
+					<div>
+					Cette datavisualisation a été réalisée dans le cadre de l'Hackaviz 2023, orchestrée de mains de maitre par <a href="https://toulouse-dataviz.fr/">Toulouse Dataviz</a>. <br/>
+					Nous avons profité de concours pour nous confronter à de nouvelles données et des nouvelles idées. Notre objectif était avant tout de nous <b>amuser</b> avec de la dataviz... et au passage d'apprendre plein de nouvelles techniques. <br/>
+					Nous n'avons pas essayé d'améliorer la qualité des données, ce qui est un prérequis indispensable à toute dataviz <b>sérieuse</b>. Aussi nos conclusions ne sont à prendre qu'à titre illustratif et n'engage pas sur une réalité du secteur.
 					</div>
 				</div>
 			</section>
 
 
-<!-- Prepare a DOM with a defined width and height for ECharts -->
-  
+<!-- Opérateurs et monopoles régionaux -->
+			<section id="nous" class="main style1 style_petit_titre dark ">
+				<div>
+			<header>	
+				<h3>Faucheurs de Données </h3> 
+			</header>
+				
+		<div class="authors">
+      <div class="profile">
+		 			 <a href="https://www.linkedin.com/in/ana%C3%ABl-delorme-573b8858/">
+			<img src="https://media.licdn.com/dms/image/D4D35AQHkOakwf1ZgVQ/profile-framedphoto-shrink_100_100/0/1673259431692?e=1679504400&v=beta&t=auTmFQj_Ji_41DxfviEXnt_d6nAHSl4a7pT1cuqtC2g" alt="Anaël Delorme">
+					 </a>
+			<p>Anaël</p>
+	  </div>
+	  <div class="profile">
 
-
-
+				<a href="https://www.linkedin.com/in/francoissemecurbe/">
+				 <img src="https://media.licdn.com/dms/image/C4E03AQFdr24mUrSj7A/profile-displayphoto-shrink_100_100/0/1584005717983?e=1684368000&v=beta&t=fZAv1laYj50BZounrIiper2GVKE1EWvxZXtqnM0dQWs" alt="François Semecurbe">
+			 </a>
+			<p>François</p>
+ 	</div>
+	</div>
+		<div class="tools">
+			<img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="Python" title="Python">
+			<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" title="JavaScript">
+			<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" title="CSS">
+			<img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="HTML" title="HTML">
+			<img src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/leancloud-assets/7761624853837b0f78cc.png~tplv-t2oaga2asx-no-mark:100:100:100:100.awebp" alt="ECharts" title="Echarts">
+			<img src="images/observable.png" alt="ObservableHQ" title="ObservableHQ">
+		</div>
+					
+				
+				</div>
+			</section>
 		<!-- Footer -->
 			<footer id="footer">
 
@@ -147,9 +177,9 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Faucheurs de Données</li><li>Créateurs: <a href="https://www.linkedin.com/in/francoissemecurbe/">François Semecurbe</a> et <a href="https://www.linkedin.com/in/ana%C3%ABl-delorme-573b8858/">Anaël Delorme</a></li>
+						<li>&copy; Faucheurs de Données</li><li>Créateurs: <a href="https://www.linkedin.com/in/ana%C3%ABl-delorme-573b8858/">Anaël Delorme</a> et <a href="https://www.linkedin.com/in/francoissemecurbe/">François Semecurbe</a></li>
 						<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-						<li>Image: <a href="https://pixabay.com/fr/https://pixabay.com/fr/">Pixabay</a></li>
+						<li>Images: <a href="https://pixabay.com/fr/https://pixabay.com/fr/">Pixabay</a></li>
 					</ul>
 
 			</footer>
@@ -163,36 +193,232 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<!-- <script src="assets/js/echarts.js"></script>-->
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"></script>
-  <script type="text/javascript">
-      // Initialize the echarts instance based on the prepared dom
-      var myChart = echarts.init(document.getElementById('charts'));
+			<script src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+			<script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+			<script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+   <script>
+       var data_brutes = [];
+        function loadCsv() {
+            Papa.parse('https://anaeldelorme.github.io/hackaviz2023/assets/borne_elec_localisation.csv', {
+                header: true,
+                download: true,
+                complete: function(results) {
+                    processData(results.data);
+                }
+            });
+        }
 
-      // Specify the configuration items and data for the chart
-      var option = {
-       // title: {
-         // text: 'ECharts Getting Started Example'
-        //},
-        tooltip: {},
-        legend: {
-          data: ['sales']
-        },
-        xAxis: {
-          data: ['Shirts', 'Cardigans', 'Chiffons', 'Pants', 'Heels', 'Socks']
-        },
-        yAxis: {},
-        series: [
-          {
-            name: 'sales',
-            type: 'bar',
-            data: [5, 20, 36, 10, 10, 20]
-          }
-        ]
-      };
+        function processData(data) {
+          var newData = data.map(function(item) {
+              return [
+                  //lon: parseFloat(item.lon), 
+                  //lat: parseFloat(item.lat)
+                   parseFloat(item.consolidated_longitude), 
+                   parseFloat(item.consolidated_latitude),
+                   item.ope
 
-      // Display the chart using the configuration items and data just specified.
-      myChart.setOption(option);
+                   //parseInt(item.id) % 2 === 0 ? true : item.gratuit === "true"
+                    //item.gratuit === "TRUE" // Ajout d'une propriété "gratuit" en tant que boolean
+              ];
+          });
+          //filter('all', newData); // Filtrer tous les éléments par défaut
+          data_brutes = newData
+            option_carto_ope.series[0].data = data_brutes;
+  chart_carto_ope.setOption(option_carto_ope);
+      }
+
     </script>
+
+    
+<script>
+function filter(operateur, data) {
+  var filteredData = [];
+  if (!data) {
+    data = data_brutes;
+  }
+  if (operateur === 'all') {
+    filteredData = data;
+  } else {
+    function filterGratuit(borne){
+        if(operateur === 'Autres opérateurs'){
+            operateur = 'Autre'
+        }
+          return borne[2] === operateur;
+       }
+       filteredData = data.filter(filterGratuit);
+
+
+  }
+
+    
+
+option_carto_ope.series[0].data = filteredData;
+chart_carto_ope.setOption(option_carto_ope);
+
+
+}
+
+    </script>
+
+
+    <script>
+        var chart_carto_ope = echarts.init(
+            document.getElementById('carto_ope'), 'white', {renderer: 'canvas'});
+        var option_carto_ope = {
+                "backgroundColor": '#39454b',
+               
+                "geo": {
+                  "map": 'world',
+                  "roam": true,
+                  "center": [1.3, 46],
+                      "zoom": 25,
+                      "roam": true,
+                  "label": {
+                    "emphasis": {
+                      "show": false
+                    }
+                  },
+                  "silent": true,
+                  "itemStyle": {
+                    "normal": {
+                      "areaColor": '#333333',
+                      "borderColor": '#3B444B'
+                    }
+                  }
+                },
+
+                series:[{
+                  "type": "scatterGL",
+                  "symbol": "circle",
+                  "name": "geo",
+                  "coordinateSystem": "geo",
+                  "progressive": 1e6,
+                  "symbolSize": 2,
+                  "zoomScale": 0.0002,
+                  "blendMode": 'lighter',
+                  "large": true,
+                  "itemStyle": {
+                    "color": 'rgb(20, 15, 2)'
+                  },
+                  "postEffect": {
+                    "enable": true
+                  },
+                  "silent": true,
+                  "dimensions": ['lon', 'lat'],
+                  "data": new Float32Array()
+
+                }]
+              };
+
+        loadCsv();
+        
+    </script>
+
+
+    <script>
+        var chart_treemap_ope = echarts.init(document.getElementById('treemap_ope'),  {renderer: 'canvas'});
+        var option_treemap_ope = {
+    
+    "color": [
+        "#D4CFC9",
+        "#8A5082",
+        "#6F5F90",
+        "#758EB7",
+        "#7FACD6",
+        "#E887D4",
+        "#A5678E",
+        "#FFBE88",
+        "#E4DFD9"
+    ],
+    "series": [
+        {
+            "type": "treemap",
+            "data": [
+                {
+                    "value": 12195,
+                    "name": "Autres op\u00e9rateurs"
+                },
+                {
+                    "value": 11985,
+                    "name": "Bouygues E&S"
+                },
+                {
+                    "value": 11921,
+                    "name": "Freshmile SAS"
+                },
+                {
+                    "value": 5605,
+                    "name": "Izivia"
+                },
+                {
+                    "value": 3515,
+                    "name": "TotalEnergies Marketing France"
+                },
+                {
+                    "value": 3265,
+                    "name": "SPIE CITYNETWORKS"
+                },
+                {
+                    "value": 2450,
+                    "name": "SPBR1"
+                }
+            ],
+            "width": "90%",
+            "height": "90%",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8
+            },
+            
+            "roam": false,
+            "nodeClick": false,
+            "colorMappingBy": "index",
+			"breadcrumb": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc",
+		"formatter": function(params) {
+        	var value = params.value;
+        	var formattedValue = value.toLocaleString();
+        	return params.name + ': ' + formattedValue + ' bornes';
+    	}
+
+    } 
+};
+        chart_treemap_ope.setOption(option_treemap_ope);
+
+chart_treemap_ope.on('click', function (params) {
+    var clickedName  = params.data.name;
+        filter(clickedName, data_brutes)
+    // Utilisez clickedName pour mettre à jour votre autre graphique
+});
+
+
+    </script>
+
+
+
 	</body>
 </html>
