@@ -53,43 +53,45 @@
 		<!-- Opérateurs et monopoles régionaux -->
 			<section id="operateur_region" class="main style1 style_petit_titre dark fullscreen">
 				<div class="content_large">
-							<header>
-			<h2> Opérateurs et monopoles régionaux</h2>
-			<p>L'implantation des opérateurs est très régionalisée. Il en résulte une fragilité du secteur : un opérateur en difficulté et ce serait une catastrophe pour toute la région. <br/>
-				Chez nous en Occitanie, c'est Bouygues E&S qui domine très largement.</p>
-                                                 <button id="reset-button" class="reset-button">Réinitialiser</button>
-
+					<header>
+			      <h2> Opérateurs et monopoles régionaux</h2>
+			      <p>L'implantation des opérateurs est très régionalisée. Il en résulte une fragilité du secteur : un opérateur en difficulté et ce serait une catastrophe pour toute la région. <br/>
+				        Chez nous en Occitanie, c'est Bouygues E&S qui domine très largement.</p>
+            <button id="reset-button" class="reset-button">Réinitialiser</button>
 					</header>
 						<div id="treemap_ope" class="chart-container"></div>
 						<div id="carto_ope" class="chart-container"> </div>
-                       
-				
 				</div>
-
 				<a href="#enseigne_type" class="button style2 down anchored">Next</a>
 			</section>
 
       <!-- Enseigne et type -->
-			<section id="enseigne_type" class="main style1 style_petit_titre dark fullscreen">
-				<div class="content_large">
-							<header>
-			<h2> Type d'enseigne</h2>
-			<p>Texte</p>
+			<section id="enseigne_type" class="main style2 left dark fullscreen">
+        <div class="content box style2">
+					<header>
+						<h2>Titre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet tincidunt dolor. Integer eleifend, nulla a pretium convallis, nibh elit aliquam tellus, id pharetra elit arcu nec ligula. Morbi lacus sem, molestie sed pulvinar id, placerat et lorem. Integer venenatis lorem enim, non semper diam dignissim non. Phasellus eget.</p>
 					</header>
-						<div id="observablehq-chart-7a67ada6"></div>
+				</div>
+        <div class="content_large2">
+          <div id="sunburst_enseigne_type" class="chart-container"></div>
 				</div>
 				<a href="#strategie_enseigne" class="button style2 down anchored">Next</a>
 			</section>
 
 		<!-- Stratégie -->
-			<section id="strategie_enseigne" class="main style2 left dark fullscreen">
+			<section id="strategie_enseigne" class="main style2 right dark fullscreen">
+				
+         <div class="content_large">
+          <div id="bar_gratuit_cb" class="chart-container" ></div>
 
-				<div class="content box style2">
-					<header>
-						<h2>Idée 1</h2>
-					</header>
-					
 				</div>
+        <div class="content box style2">
+					<header>
+						<h2>Titre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet tincidunt dolor. Integer eleifend, nulla a pretium convallis, nibh elit aliquam tellus, id pharetra elit arcu nec ligula. Morbi lacus sem, molestie sed pulvinar id, placerat et lorem. Integer venenatis lorem enim, non semper diam dignissim non. Phasellus eget.</p>
+					</header>
+        </div>
 				<a href="#info" class="button style2 down anchored">Next</a>
 			</section>
 
@@ -144,16 +146,6 @@
 			</section>
 
 
-<p>Credit: <a href="https://observablehq.com/d/843c37d484efaaa5">Zoomable Sunburst by François Semecurbe Marouchi</a></p>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import define from "https://api.observablehq.com/d/843c37d484efaaa5.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-7a67ada6"));
-});
-</script>
 
 
 		<!-- Footer -->
@@ -191,6 +183,8 @@ new Runtime().module(define, name => {
 			<script src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
 			<script src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+      <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/themes/macarons.js"></script>
+      
    <script>
        var data_brutes = [];
        var titre_carte = "Bornes de recharge de tous les opérateurs";
@@ -436,7 +430,851 @@ chart_treemap_ope.on('click', function (params) {
 
     </script>
 
+ <script>
+        var chart_sunburst_enseigne_type = echarts.init(
+            document.getElementById('sunburst_enseigne_type'), 'white', {renderer: 'canvas'});
+        var option_sunburst_enseigne_type = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "sunburst",
+            "data": [
+                {
+                    "name": "Public",
+                    "itemStyle": {
+                        "color": "#00CCBF"
+                    },
+                    "children": [
+                      
+                        {
+                            "name": "Commune",
+                            "itemStyle": {
+                                "color": "#0BB8E3"
+                            },
+                            "children": [
+                        {
+                            "name": "GARENNE",
+                            "value": 17
+                        },
+                        {
+                            "name": "LEVAPARC",
+                            "value": 15
+                        },
+                        {
+                            "name": "VAL SERVICES",
+                            "value": 20
+                        }
+                    ]
+                        },{
+                            "name": "Département",
+                            "itemStyle": {
+                                "color": "#00B3A7"
+                            },
+                            "children": [
+                        {
+                            "name": "ALTERBASE86",
+                            "value": 297
+                        },
+                        {
+                            "name": "BELIB'",
+                            "value": 643
+                        },
+                        {
+                            "name": "E-CHARGE50",
+                            "value": 244
+                        },
+                        {
+                            "name": "ECOCHARGE77",
+                            "value": 331
+                        },
+                        {
+                            "name": "FR*S28",
+                            "value": 12
+                        },
+                        {
+                            "name": "IMT DOUAI",
+                            "value": 12
+                        },
+                        {
+                            "name": "MOBISDEC",
+                            "value": 410
+                        },
+                        {
+                            "name": "MORBIHAN ENERGIES",
+                            "value": 264
+                        },
+                        {
+                            "name": "RT78",
+                            "value": 38
+                        },
+                        {
+                            "name": "SARTHE IRVE",
+                            "value": 52
+                        },
+                        {
+                            "name": "SEYMABORNE (SEY78)",
+                            "value": 370
+                        },
+                        {
+                            "name": "SIEG63",
+                            "value": 302
+                        },
+                        {
+                            "name": "SIEGE",
+                            "value": 270
+                        },
+                        {
+                            "name": "SIEML",
+                            "value": 485
+                        },
+                        {
+                            "name": "SIMONE",
+                            "value": 32
+                        },
+                        {
+                            "name": "SOREGIES",
+                            "value": 212
+                        },
+                        {
+                            "name": "SYDELA",
+                            "value": 413
+                        },
+                        {
+                            "name": "SYDER",
+                            "value": 90
+                        },
+                        {
+                            "name": "SYDEV",
+                            "value": 259
+                        },
+                        {
+                            "name": "TEM53",
+                            "value": 126
+                        },
+                        {
+                            "name": "VAUCLUS ELEC",
+                            "value": 106
+                        }
+                    ]
+                        },
+{
+                            "name": "Interdépartement",
+                            "itemStyle": {
+                                "color": "#0BE398"
+                            },
+                            "children": [
+                      {
+                            "name": "EBORN",
+                            "value": 1757
+                        },
+                        {
+                            "name": "OUEST CHARGE",
+                            "value": 544
+                        }
+                    ]
+                        },
+                        {
+                            "name": "Métropole",
+                            "itemStyle": {
+                                "color": "#51E8B3"
+                            },
+                            "children": [
+                      {
+                            "name": "GRAND LYON",
+                            "value": 302
+                        },
+                        {
+                            "name": "GRAND NANCY",
+                            "value": 124
+                        },
+                        {
+                            "name": "GRENOBLE-ALPES METROPOLE",
+                            "value": 83
+                        },
+                        {
+                            "name": "LARECHARGE",
+                            "value": 240
+                        },
+                        {
+                            "name": "METROPOLE ROUEN NORMANDIE",
+                            "value": 180
+                        },
+                        {
+                            "name": "METROPOLIS",
+                            "value": 312
+                        },
+                        {
+                            "name": "WIIIZ",
+                            "value": 312
+                        }
+                    ]
+                        },
+                        {
+                            "name": "Région",
+                            "itemStyle": {
+                                "color": "#00E6D7"
+                            },
+                            "children": [
+                      {
+                            "name": "LA BORNE BLEUE",
+                            "value": 625
+                        },
+                        {
+                            "name": "MOBIVE",
+                            "value": 1160
+                        },
+                        {
+                            "name": "PASS PASS ELECTRIQUE",
+                            "value": 1183
+                        },
+                        {
+                            "name": "REVEO",
+                            "value": 3385
+                        },
+                        {
+                            "name": "SIGEIF",
+                            "value": 439
+                        }
+                    ]
+                        }
 
+                    
+                    
+                    
+                        ]
+                },
+                {
+                    "name": "Privé",
+                    "itemStyle": {
+                        "color": "#FF5F5D"
+                    },
+                    "children": [
+                        {
+                            "name": "Concessionnaire",
+                            "itemStyle": {
+                                "color": "#B3755B"
+                            },
+                            "children": [
+                                {
+                            "name": "BMW",
+                            "value": 216
+                        },
+                        {
+                            "name": "CITROEN",
+                            "value": 17
+                        },
+                        {
+                            "name": "FIAT",
+                            "value": 40
+                        },
+                        {
+                            "name": "HYUNDAI",
+                            "value": 160
+                        },
+                        {
+                            "name": "JAGUAR LAND ROVER",
+                            "value": 59
+                        },
+                        {
+                            "name": "KIA",
+                            "value": 80
+                        },
+                        {
+                            "name": "MAZDA",
+                            "value": 59
+                        },
+                        {
+                            "name": "MERCEDES",
+                            "value": 13
+                        },
+                        {
+                            "name": "OPEL",
+                            "value": 66
+                        },
+                        {
+                            "name": "PEUGEOT",
+                            "value": 63
+                        },
+                        {
+                            "name": "RENAULT",
+                            "value": 51
+                        },
+                        {
+                            "name": "SUPERCHARGER TESLA",
+                            "value": 30
+                        },
+                         {
+                            "name": "FORD",
+                            "value": 106
+                        },
+                        {
+                            "name": "TOYOTA",
+                            "value": 57
+                        },
+                        {
+                            "name": "VOLKSWAGEN",
+                            "value": 41
+                        },
+                        {
+                            "name": "VOLVO",
+                            "value": 259
+                        },
+                        {
+                            "name": "NISSAN",
+                            "value": 36
+                        }
+                            ]
+                        },
+                        {
+                            "name": "Entreprise",
+                            "itemStyle": {
+                                "color": "#FF4FF5"
+                            },
+                            "children": [
+                                {
+                                    "name": "UNIBAIL",
+                                    "value": 49
+                                }
+                            ]
+                        },{
+                            "name": "Hôtellerie",
+                            "itemStyle": {
+                                "color": "#E86248"
+                            },
+                            "children": [
+                                {
+                            "name": "CAMPING",
+                            "value": 125
+                        },
+                        {
+                            "name": "HOTEL",
+                            "value": 111
+                        }
+                            ]
+                        },{
+                            "name": "Magasin",
+                            "itemStyle": {
+                                "color": "#FF854F"
+                            },
+                            "children": [
+                                {
+                            "name": "DECATHLON",
+                            "value": 22
+                        },
+                        {
+                            "name": "LEROY MERLIN",
+                            "value": 58
+                        },
+                        {
+                            "name": "LIDL",
+                            "value": 26
+                        },{
+                            "name": "INTERMARCHE",
+                            "value": 24
+                        },
+                        {
+                            "name": "LECLERC",
+                            "value": 14
+                        }
+                            ]
+                        },{
+                            "name": "Opérateurs",
+                            "itemStyle": {
+                                "color": "#FF854F"
+                            },
+                            "children": [
+                                {
+                            "name": "ALIZE LIBERTE",
+                            "value": 267
+                        },
+                        {
+                            "name": "ALLEGO",
+                            "value": 18
+                        },
+                        {
+                            "name": "AVIA PICOTY",
+                            "value": 11
+                        },
+                        {
+                            "name": "AVIA TD",
+                            "value": 20
+                        },
+                        {
+                            "name": "BORNES SOLUTIONS - ITINERANCE PUBLIQUE",
+                            "value": 51
+                        },
+                        {
+                            "name": "BOUYGUES ENERGIES ET SERVICES",
+                            "value": 18
+                        },
+                        {
+                            "name": "CPO ALIZE LIBERTE PUBLIC",
+                            "value": 557
+                        },
+                        {
+                            "name": "CPS",
+                            "value": 54
+                        },
+                        {
+                            "name": "DLM",
+                            "value": 16
+                        },
+                        {
+                            "name": "EASYCHARGE SERVICES",
+                            "value": 33
+                        },
+                        {
+                            "name": "ELECTRA",
+                            "value": 42
+                        },
+                        {
+                            "name": "ELECTRIC 55 CHARGING",
+                            "value": 164
+                        },
+                        {
+                            "name": "EVBOX",
+                            "value": 24
+                        },
+                        {
+                            "name": "FASTNED",
+                            "value": 92
+                        },
+                       
+                        {
+                            "name": "FRESHMILE",
+                            "value": 7906
+                        },
+                        {
+                            "name": "IZIVIA",
+                            "value": 113
+                        },
+                        {
+                            "name": "LAST MILE SOLUTIONS",
+                            "value": 86
+                        },
+                        {
+                            "name": "LUMI'IN",
+                            "value": 68
+                        },
+                        {
+                            "name": "MAMP",
+                            "value": 36
+                        },
+                        {
+                            "name": "PARASOL",
+                            "value": 13
+                        },
+                        {
+                            "name": "PROPERPHI",
+                            "value": 30
+                        },
+                        {
+                            "name": "QOVOLTIS",
+                            "value": 174
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE VIRTA PUBLIC",
+                            "value": 34
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE VOLTA CHARGING",
+                            "value": 20
+                        },
+                        {
+                            "name": "RIESTER",
+                            "value": 15
+                        },
+                        {
+                            "name": "ROSSINIENERGY",
+                            "value": 263
+                        },
+                        {
+                            "name": "SHELL",
+                            "value": 14
+                        },
+                        {
+                            "name": "STATIONS-E",
+                            "value": 86
+                        },
+                        {
+                            "name": "TOTAL CHARGE RAPIDE",
+                            "value": 231
+                        },
+                        {
+                            "name": "WARNING",
+                            "value": 18
+                        },
+                        {
+                            "name": "ZEENCO",
+                            "value": 39
+                        }
+                            ]
+                        },
+                        {
+                            "name": "Parking",
+                            "itemStyle": {
+                                "color": "#FFB99C"
+                            },
+                            "children": [
+                     {
+                            "name": "ADP GROUPE",
+                            "value": 20
+                        },
+                        {
+                            "name": "INDIGO FRANCE",
+                            "value": 915
+                        },
+                        {
+                            "name": "PARKING",
+                            "value": 31
+                        },
+                        {
+                            "name": "POWER DOT FRANCE",
+                            "value": 639
+                        },
+                        {
+                            "name": "VINCI",
+                            "value": 31
+                        }
+                    ]
+                        },
+                        
+                    ]
+                },
+                {
+                    "name": "Autres",
+                    "itemStyle": {
+                        "color": "#747E7E"
+                    },
+                    "children": [
+                        {
+                            "name": "Autres",
+                            "itemStyle": {
+                                "color": "#747E7E"
+                            },
+                            "children": [{
+                                "name":"Autres",
+                                "value":1121
+                            }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "radius": [
+                0,
+                "95%"
+            ],
+            "highlightPolicy": "ancestor",
+            "nodeClick": "rootToNode",
+            "sort": "null",
+            "levels": [
+                {},
+                {
+                    "r0": "15%",
+                    "r": "35%",
+                    "itemStyle": {
+                        "borderWidth": 2
+                    },
+                    "label": {
+                        "rotate": "tangential"
+                    }
+                },
+                {
+                    "r0": "35%",
+                    "r": "70%",
+                    "label": {
+                        "align": "right"
+                    }
+                },
+                {
+                    "r0": "70%",
+                    "r": "72%",
+                    "label": {
+                        "position": "outside",
+                        "padding": 3,
+                        "silent": false
+                    },
+                    "itemStyle": {
+                        "borderWidth": 3
+                    }
+                }
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    }
+};
+        chart_sunburst_enseigne_type.setOption(option_sunburst_enseigne_type);
+    </script>
 
+    <script>
+        var chart_bar_gratuit_cb = echarts.init(
+            document.getElementById('bar_gratuit_cb'), 'light', {renderer: 'canvas'});
+        var option_bar_gratuit_cb = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "Gratuit",
+            "legendHoverLink": true,
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "color": '#0A7368'
+        },
+        {
+            "type": "bar",
+            "name": "Paiement en Carte Bleue",
+            "legendHoverLink": true,
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "color": "#6AA9D9"
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Gratuit",
+                "Paiement en Carte Bleue"
+            ],
+            "selected": {
+                "Gratuit": true,
+                "Paiement en Carte Bleue": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 25,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "textStyle": {
+                "color": "#fff" // blanc
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "axisLabel": {
+                "textStyle": {
+                    "color": "#fff"
+                },
+                "lineStyle": {
+                  "color": '#fff'
+                }
+        },
+
+        }
+    ],
+    "yAxis": [
+        {   
+            "min": 0,
+            "max": 100,
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 0.1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "axisLabel": {
+                "textStyle": {
+                    "color": "#fff"
+                },
+                "formatter": function(value) {
+                  return value + ' %';
+            }
+            }
+        }
+    ],
+    "dataset": [
+        {
+            "source": [
+                [
+                    "Priv\u00e9",
+                    8.0,
+                    73.0
+                ],
+                [
+                    "Public",
+                    15.0,
+                    30.0
+                ]
+            ]
+        }
+    ]
+};
+        chart_bar_gratuit_cb.setOption(option_bar_gratuit_cb);
+    </script>
+
+    
 	</body>
 </html>

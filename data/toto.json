@@ -1,0 +1,2774 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "GARENNE",
+                            "value": 17
+                        },
+                        {
+                            "name": "LEVAPARC",
+                            "value": 15
+                        },
+                        {
+                            "name": "VAL SERVICES",
+                            "value": 20
+                        }
+                    ],
+                    "name": "Commune"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "NISSAN",
+                            "value": 36
+                        }
+                    ],
+                    "name": "Constructeur automobile"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "ALTERBASE86",
+                            "value": 297
+                        },
+                        {
+                            "name": "BELIB'",
+                            "value": 643
+                        },
+                        {
+                            "name": "E-CHARGE50",
+                            "value": 244
+                        },
+                        {
+                            "name": "ECOCHARGE77",
+                            "value": 331
+                        },
+                        {
+                            "name": "FR*S28",
+                            "value": 12
+                        },
+                        {
+                            "name": "IMT DOUAI",
+                            "value": 12
+                        },
+                        {
+                            "name": "MOBISDEC",
+                            "value": 410
+                        },
+                        {
+                            "name": "MORBIHAN ENERGIES",
+                            "value": 264
+                        },
+                        {
+                            "name": "RT78",
+                            "value": 38
+                        },
+                        {
+                            "name": "SARTHE IRVE",
+                            "value": 52
+                        },
+                        {
+                            "name": "SEYMABORNE (SEY78)",
+                            "value": 370
+                        },
+                        {
+                            "name": "SIEG63",
+                            "value": 302
+                        },
+                        {
+                            "name": "SIEGE",
+                            "value": 270
+                        },
+                        {
+                            "name": "SIEML",
+                            "value": 485
+                        },
+                        {
+                            "name": "SIMONE",
+                            "value": 32
+                        },
+                        {
+                            "name": "SOREGIES",
+                            "value": 212
+                        },
+                        {
+                            "name": "SYDELA",
+                            "value": 413
+                        },
+                        {
+                            "name": "SYDER",
+                            "value": 90
+                        },
+                        {
+                            "name": "SYDEV",
+                            "value": 259
+                        },
+                        {
+                            "name": "TEM53",
+                            "value": 126
+                        },
+                        {
+                            "name": "VAUCLUS ELEC",
+                            "value": 106
+                        }
+                    ],
+                    "name": "D\u00e9partement"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "EBORN",
+                            "value": 1757
+                        },
+                        {
+                            "name": "OUEST CHARGE",
+                            "value": 544
+                        }
+                    ],
+                    "name": "Interd\u00e9partement"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "GRAND LYON",
+                            "value": 302
+                        },
+                        {
+                            "name": "GRAND NANCY",
+                            "value": 124
+                        },
+                        {
+                            "name": "GRENOBLE-ALPES METROPOLE",
+                            "value": 83
+                        },
+                        {
+                            "name": "LARECHARGE",
+                            "value": 240
+                        },
+                        {
+                            "name": "METROPOLE ROUEN NORMANDIE",
+                            "value": 180
+                        },
+                        {
+                            "name": "METROPOLIS",
+                            "value": 312
+                        },
+                        {
+                            "name": "WIIIZ",
+                            "value": 312
+                        }
+                    ],
+                    "name": "M\u00e9tropole"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "LA BORNE BLEUE",
+                            "value": 625
+                        },
+                        {
+                            "name": "MOBIVE",
+                            "value": 1160
+                        },
+                        {
+                            "name": "PASS PASS ELECTRIQUE",
+                            "value": 1183
+                        },
+                        {
+                            "name": "REVEO",
+                            "value": 3385
+                        },
+                        {
+                            "name": "SIGEIF",
+                            "value": 439
+                        }
+                    ],
+                    "name": "R\u00e9gion"
+                }
+            ],
+            "name": "Public"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "BMW",
+                            "value": 216
+                        },
+                        {
+                            "name": "CITROEN",
+                            "value": 17
+                        },
+                        {
+                            "name": "FIAT",
+                            "value": 40
+                        },
+                        {
+                            "name": "HYUNDAI",
+                            "value": 160
+                        },
+                        {
+                            "name": "JAGUAR LAND ROVER",
+                            "value": 59
+                        },
+                        {
+                            "name": "KIA",
+                            "value": 80
+                        },
+                        {
+                            "name": "MAZDA",
+                            "value": 59
+                        },
+                        {
+                            "name": "MERCEDES",
+                            "value": 13
+                        },
+                        {
+                            "name": "OPEL",
+                            "value": 66
+                        },
+                        {
+                            "name": "PEUGEOT",
+                            "value": 63
+                        },
+                        {
+                            "name": "RENAULT",
+                            "value": 51
+                        },
+                        {
+                            "name": "SUPERCHARGER TESLA",
+                            "value": 30
+                        },
+                        {
+                            "name": "TOYOTA",
+                            "value": 57
+                        },
+                        {
+                            "name": "VOLKSWAGEN",
+                            "value": 41
+                        },
+                        {
+                            "name": "VOLVO",
+                            "value": 259
+                        }
+                    ],
+                    "name": "Constructeur automobile"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "UNIBAIL",
+                            "value": 49
+                        }
+                    ],
+                    "name": "Entreprise"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "CAMPING",
+                            "value": 125
+                        },
+                        {
+                            "name": "HOTEL",
+                            "value": 111
+                        }
+                    ],
+                    "name": "H\u00f4tel Restaurant Camping"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "DECATHLON",
+                            "value": 22
+                        },
+                        {
+                            "name": "LEROY MERLIN",
+                            "value": 58
+                        },
+                        {
+                            "name": "LIDL",
+                            "value": 26
+                        }
+                    ],
+                    "name": "Magasin"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "ALIZE LIBERTE",
+                            "value": 267
+                        },
+                        {
+                            "name": "ALLEGO",
+                            "value": 18
+                        },
+                        {
+                            "name": "AVIA PICOTY",
+                            "value": 11
+                        },
+                        {
+                            "name": "AVIA TD",
+                            "value": 20
+                        },
+                        {
+                            "name": "BORNES SOLUTIONS - ITINERANCE PUBLIQUE",
+                            "value": 51
+                        },
+                        {
+                            "name": "BOUYGUES ENERGIES ET SERVICES",
+                            "value": 18
+                        },
+                        {
+                            "name": "CPO ALIZE LIBERTE PUBLIC",
+                            "value": 557
+                        },
+                        {
+                            "name": "CPS",
+                            "value": 54
+                        },
+                        {
+                            "name": "DLM",
+                            "value": 16
+                        },
+                        {
+                            "name": "EASYCHARGE SERVICES",
+                            "value": 33
+                        },
+                        {
+                            "name": "ELECTRA",
+                            "value": 42
+                        },
+                        {
+                            "name": "ELECTRIC 55 CHARGING",
+                            "value": 164
+                        },
+                        {
+                            "name": "EVBOX",
+                            "value": 24
+                        },
+                        {
+                            "name": "FASTNED",
+                            "value": 92
+                        },
+                        {
+                            "name": "FORD",
+                            "value": 106
+                        },
+                        {
+                            "name": "FRESHMILE",
+                            "value": 7906
+                        },
+                        {
+                            "name": "IZIVIA",
+                            "value": 113
+                        },
+                        {
+                            "name": "LAST MILE SOLUTIONS",
+                            "value": 86
+                        },
+                        {
+                            "name": "LUMI'IN",
+                            "value": 68
+                        },
+                        {
+                            "name": "MAMP",
+                            "value": 36
+                        },
+                        {
+                            "name": "PARASOL",
+                            "value": 13
+                        },
+                        {
+                            "name": "PROPERPHI",
+                            "value": 30
+                        },
+                        {
+                            "name": "QOVOLTIS",
+                            "value": 174
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE VIRTA PUBLIC",
+                            "value": 34
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE VOLTA CHARGING",
+                            "value": 20
+                        },
+                        {
+                            "name": "RIESTER",
+                            "value": 15
+                        },
+                        {
+                            "name": "ROSSINIENERGY",
+                            "value": 263
+                        },
+                        {
+                            "name": "SHELL",
+                            "value": 14
+                        },
+                        {
+                            "name": "STATIONS-E",
+                            "value": 86
+                        },
+                        {
+                            "name": "TOTAL CHARGE RAPIDE",
+                            "value": 231
+                        },
+                        {
+                            "name": "WARNING",
+                            "value": 18
+                        },
+                        {
+                            "name": "ZEENCO",
+                            "value": 39
+                        }
+                    ],
+                    "name": "Op\u00e9rateur sp\u00e9cialis\u00e9"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "ADP GROUPE",
+                            "value": 20
+                        },
+                        {
+                            "name": "INDIGO FRANCE",
+                            "value": 915
+                        },
+                        {
+                            "name": "PARKING",
+                            "value": 31
+                        },
+                        {
+                            "name": "POWER DOT FRANCE",
+                            "value": 639
+                        },
+                        {
+                            "name": "VINCI",
+                            "value": 31
+                        }
+                    ],
+                    "name": "Parking et voirie"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "INTERMARCHE",
+                            "value": 24
+                        },
+                        {
+                            "name": "LECLERC",
+                            "value": 14
+                        }
+                    ],
+                    "name": "Supermarch\u00e9"
+                }
+            ],
+            "name": "Priv\u00e9"
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "name": "1PACTE",
+                            "value": 2
+                        },
+                        {
+                            "name": "2 PL. DU 8 MAI 1945",
+                            "value": 2
+                        },
+                        {
+                            "name": "21 RUE MAL DE LATTRE DE TASSIGNY",
+                            "value": 2
+                        },
+                        {
+                            "name": "270 AGENCY",
+                            "value": 1
+                        },
+                        {
+                            "name": "2ED",
+                            "value": 2
+                        },
+                        {
+                            "name": "2ED COUTANCES",
+                            "value": 1
+                        },
+                        {
+                            "name": "2ED LOGISTIQUE",
+                            "value": 1
+                        },
+                        {
+                            "name": "2F PRODUCTION",
+                            "value": 1
+                        },
+                        {
+                            "name": "3MI",
+                            "value": 1
+                        },
+                        {
+                            "name": "4M RETAIL",
+                            "value": 1
+                        },
+                        {
+                            "name": "ACCIF TOULOUSE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ACELEC",
+                            "value": 1
+                        },
+                        {
+                            "name": "ACMD",
+                            "value": 2
+                        },
+                        {
+                            "name": "ADEO",
+                            "value": 4
+                        },
+                        {
+                            "name": "ADL",
+                            "value": 1
+                        },
+                        {
+                            "name": "AERODROME BAIE SOMME",
+                            "value": 1
+                        },
+                        {
+                            "name": "AGAPHONE",
+                            "value": 1
+                        },
+                        {
+                            "name": "AGP",
+                            "value": 1
+                        },
+                        {
+                            "name": "ALAMBIC",
+                            "value": 2
+                        },
+                        {
+                            "name": "ALLENERGIES",
+                            "value": 2
+                        },
+                        {
+                            "name": "ALOUISFACEINTACPUBLIC",
+                            "value": 1
+                        },
+                        {
+                            "name": "ALTERBASE87",
+                            "value": 3
+                        },
+                        {
+                            "name": "ALTERBASE88",
+                            "value": 1
+                        },
+                        {
+                            "name": "ALTERNA ENERGIE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ALU GRANON",
+                            "value": 1
+                        },
+                        {
+                            "name": "AMBROISE AVOCAT",
+                            "value": 1
+                        },
+                        {
+                            "name": "ANS COM",
+                            "value": 1
+                        },
+                        {
+                            "name": "AQUA LOISIRS",
+                            "value": 1
+                        },
+                        {
+                            "name": "ARC EN CIEL SUBLIMATION",
+                            "value": 1
+                        },
+                        {
+                            "name": "ARCACHON",
+                            "value": 10
+                        },
+                        {
+                            "name": "AREA ENGLOS",
+                            "value": 2
+                        },
+                        {
+                            "name": "AREA TECH",
+                            "value": 3
+                        },
+                        {
+                            "name": "ARMONIAL",
+                            "value": 1
+                        },
+                        {
+                            "name": "ARMSTRONG FRANCE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ASSOCIATION DES AMIS DE VALMAGNE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ATELIER DE L'ALUMINIUM CHANOPOST",
+                            "value": 6
+                        },
+                        {
+                            "name": "ATELIERS PROVENCE LOISIRS",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUBADE - COMPTOIR DES FERS",
+                            "value": 2
+                        },
+                        {
+                            "name": "AUBERGE SAINT WALFRID",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUCHAN",
+                            "value": 4
+                        },
+                        {
+                            "name": "AUCUN",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUDI BYMYCAR AVIGNON",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUDI BYMYCAR LYON NORD",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUDI BYMYCAR ORL&EACUTE;ANS",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUTO AVENIR RELAIS - CHATEAU THIERRY - VW",
+                            "value": 2
+                        },
+                        {
+                            "name": "AUTO AVENIR RELAIS - MAGENTA - VW",
+                            "value": 2
+                        },
+                        {
+                            "name": "AUTO S&EACUTE;LECTION - JAGUAR LAND-ROVER",
+                            "value": 2
+                        },
+                        {
+                            "name": "AUTO SERVICE PLUS",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUTO SERVICES PIXIEN",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUTO SPRINTER - MARSEILLE",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUTOBERNARD - VALENCE",
+                            "value": 4
+                        },
+                        {
+                            "name": "AUTOMOBILE DE L'EST",
+                            "value": 1
+                        },
+                        {
+                            "name": "AUTOPLUG",
+                            "value": 3
+                        },
+                        {
+                            "name": "AUTORECHARGE SAS",
+                            "value": 4
+                        },
+                        {
+                            "name": "AVIS LOCATION VOITURE",
+                            "value": 10
+                        },
+                        {
+                            "name": "AVOMARKS",
+                            "value": 1
+                        },
+                        {
+                            "name": "AX'STONE",
+                            "value": 1
+                        },
+                        {
+                            "name": "BASTIDE BEAUDINARD",
+                            "value": 1
+                        },
+                        {
+                            "name": "BATIMENT DE L'ATELIER- LA PERDIERE",
+                            "value": 2
+                        },
+                        {
+                            "name": "BBJ MAZERES",
+                            "value": 2
+                        },
+                        {
+                            "name": "BDS MENUISERIE",
+                            "value": 1
+                        },
+                        {
+                            "name": "BE CABLE",
+                            "value": 3
+                        },
+                        {
+                            "name": "BECABLE",
+                            "value": 5
+                        },
+                        {
+                            "name": "BERNARD TRUCKS GRENOBLE",
+                            "value": 2
+                        },
+                        {
+                            "name": "BEST WESTERN",
+                            "value": 7
+                        },
+                        {
+                            "name": "BH CAR",
+                            "value": 1
+                        },
+                        {
+                            "name": "BIG MAT",
+                            "value": 1
+                        },
+                        {
+                            "name": "BM92",
+                            "value": 4
+                        },
+                        {
+                            "name": "BORNE DE CHARGE 2X22 KW WITTY PARK",
+                            "value": 1
+                        },
+                        {
+                            "name": "BORNE DE RECHARGE GRATUITE",
+                            "value": 1
+                        },
+                        {
+                            "name": "BORNE DE RECHARGE HEXAOM BOUC BEL AIR",
+                            "value": 1
+                        },
+                        {
+                            "name": "BORNE IRVE RIQUEWIHR",
+                            "value": 2
+                        },
+                        {
+                            "name": "BORNECO",
+                            "value": 1
+                        },
+                        {
+                            "name": "BORNES VE WATTPARK/EELDYNAMIC - AV. EUGENE VERNHOLES, DOURDAN",
+                            "value": 1
+                        },
+                        {
+                            "name": "BOULANGER",
+                            "value": 4
+                        },
+                        {
+                            "name": "BOULANGER - SIEGE SOCIAL",
+                            "value": 4
+                        },
+                        {
+                            "name": "BOULANGER ENGLOS",
+                            "value": 2
+                        },
+                        {
+                            "name": "BOX",
+                            "value": 1
+                        },
+                        {
+                            "name": "BP EG",
+                            "value": 6
+                        },
+                        {
+                            "name": "BPM GROUP",
+                            "value": 3
+                        },
+                        {
+                            "name": "BRICOMARCHE",
+                            "value": 8
+                        },
+                        {
+                            "name": "BSCM",
+                            "value": 2
+                        },
+                        {
+                            "name": "BTWIN VILLAGE",
+                            "value": 6
+                        },
+                        {
+                            "name": "BUBBLE TREE",
+                            "value": 1
+                        },
+                        {
+                            "name": "CAFE LA PROMENADE",
+                            "value": 1
+                        },
+                        {
+                            "name": "CAMAIEU FRANCE",
+                            "value": 9
+                        },
+                        {
+                            "name": "CAMPANILE",
+                            "value": 2
+                        },
+                        {
+                            "name": "CAMPUS VIGNY",
+                            "value": 1
+                        },
+                        {
+                            "name": "CAP EMPLOI",
+                            "value": 1
+                        },
+                        {
+                            "name": "CAPITAINERIE PORT DE GRUISSAN",
+                            "value": 1
+                        },
+                        {
+                            "name": "CARREFOUR",
+                            "value": 5
+                        },
+                        {
+                            "name": "CARROSSERIE",
+                            "value": 2
+                        },
+                        {
+                            "name": "CASINO",
+                            "value": 2
+                        },
+                        {
+                            "name": "CC RIVES D'ALZON",
+                            "value": 2
+                        },
+                        {
+                            "name": "CC SUD CORSE - SANTA CATALINA",
+                            "value": 1
+                        },
+                        {
+                            "name": "CENTRE DE REEDUCATION DE L'OISEAU BLANC",
+                            "value": 2
+                        },
+                        {
+                            "name": "CENTRE JUNO BEACH",
+                            "value": 1
+                        },
+                        {
+                            "name": "CENTRE MEDICAL ARTZAMENDI",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHALLANS AUTOMOBILES",
+                            "value": 2
+                        },
+                        {
+                            "name": "CHAPITEAUX SERVICE",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHARGE BANARGE",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHARGEPOINT",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHARGEPOINT NETWORK",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHARGEPOLY",
+                            "value": 5
+                        },
+                        {
+                            "name": "CHARNAY RCEA TGV",
+                            "value": 2
+                        },
+                        {
+                            "name": "CHARRIERE DISTRIBUTION",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHATEAU DE LA GARDINE",
+                            "value": 2
+                        },
+                        {
+                            "name": "CHATEAU DE MEMANAT",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHATEAU DE RONZIERE",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHATEAU DES BROYERS",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHATEAU MENTONE",
+                            "value": 3
+                        },
+                        {
+                            "name": "CHATEAU RIPEAU",
+                            "value": 1
+                        },
+                        {
+                            "name": "CHATENOIS_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "CIGIMMO",
+                            "value": 1
+                        },
+                        {
+                            "name": "CLINIQUE DE LA MITTERIE",
+                            "value": 2
+                        },
+                        {
+                            "name": "CLINIQUE DE LA VICTOIRE",
+                            "value": 1
+                        },
+                        {
+                            "name": "CLINIQUE SAINTE MARIE",
+                            "value": 2
+                        },
+                        {
+                            "name": "CLOVIS LOCATION VILLEFRANCHE-SUR-SA&OCIRC;NE",
+                            "value": 3
+                        },
+                        {
+                            "name": "CLUB MED",
+                            "value": 1
+                        },
+                        {
+                            "name": "COMMUNAUTE DE COMMUNES SUD CORSE",
+                            "value": 1
+                        },
+                        {
+                            "name": "COMTE LIGER-BELAIR",
+                            "value": 1
+                        },
+                        {
+                            "name": "CONCESSIONNAIRE",
+                            "value": 4
+                        },
+                        {
+                            "name": "CONCESSIONNAIRE EURO-GARE",
+                            "value": 4
+                        },
+                        {
+                            "name": "CONCESSIONNAIRE SUZUKI ANNECY SAVOIE MOTORS",
+                            "value": 2
+                        },
+                        {
+                            "name": "CONCESSIONNAIRE SUZUKI ANNEMASSE",
+                            "value": 2
+                        },
+                        {
+                            "name": "COPRODEX",
+                            "value": 1
+                        },
+                        {
+                            "name": "CORCIEUX",
+                            "value": 1
+                        },
+                        {
+                            "name": "CORSE TRAVAUX",
+                            "value": 2
+                        },
+                        {
+                            "name": "CORSICA GAME",
+                            "value": 2
+                        },
+                        {
+                            "name": "COURTEPAILLE",
+                            "value": 2
+                        },
+                        {
+                            "name": "CRITTM2A",
+                            "value": 1
+                        },
+                        {
+                            "name": "CSE-CENTRAL BDF",
+                            "value": 4
+                        },
+                        {
+                            "name": "CUISINES SCHMIDT",
+                            "value": 1
+                        },
+                        {
+                            "name": "DA COSTA AUTOMOBILES",
+                            "value": 1
+                        },
+                        {
+                            "name": "DACIA",
+                            "value": 2
+                        },
+                        {
+                            "name": "DAF - GSVI MARSEILLE",
+                            "value": 4
+                        },
+                        {
+                            "name": "DALTONER",
+                            "value": 5
+                        },
+                        {
+                            "name": "DARDILLY PORTE DE LYON",
+                            "value": 2
+                        },
+                        {
+                            "name": "DARNEY_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "DARTY",
+                            "value": 2
+                        },
+                        {
+                            "name": "DEFRANCE AUTOMOBILES",
+                            "value": 3
+                        },
+                        {
+                            "name": "DEGRES CELCIUS",
+                            "value": 1
+                        },
+                        {
+                            "name": "DESENFANS",
+                            "value": 1
+                        },
+                        {
+                            "name": "DESENFANS CAMBRAI",
+                            "value": 1
+                        },
+                        {
+                            "name": "DESENFANS GOUSAINVILLE",
+                            "value": 1
+                        },
+                        {
+                            "name": "DIDIER CHARTON-VACHET",
+                            "value": 1
+                        },
+                        {
+                            "name": "DINOZE",
+                            "value": 1
+                        },
+                        {
+                            "name": "DMD44800*2",
+                            "value": 2
+                        },
+                        {
+                            "name": "DOMAINE DE FOMPEYRE",
+                            "value": 2
+                        },
+                        {
+                            "name": "DOMAINE DE VAUJOLY",
+                            "value": 2
+                        },
+                        {
+                            "name": "DOMAINE GUEGUEN",
+                            "value": 1
+                        },
+                        {
+                            "name": "DOMMARTIN_LES_REMIREMONT",
+                            "value": 1
+                        },
+                        {
+                            "name": "DOUBLET",
+                            "value": 1
+                        },
+                        {
+                            "name": "DRIVEONE",
+                            "value": 1
+                        },
+                        {
+                            "name": "DS",
+                            "value": 4
+                        },
+                        {
+                            "name": "EDF",
+                            "value": 3
+                        },
+                        {
+                            "name": "EGSM",
+                            "value": 1
+                        },
+                        {
+                            "name": "ELEC ECONNECT",
+                            "value": 1
+                        },
+                        {
+                            "name": "ELECTRIOX GROUPE STATION IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ELECTROMAPS",
+                            "value": 6
+                        },
+                        {
+                            "name": "ELLIPSE CINEMA",
+                            "value": 2
+                        },
+                        {
+                            "name": "ENERGEM",
+                            "value": 1
+                        },
+                        {
+                            "name": "ENTREPOT PRELODIS",
+                            "value": 2
+                        },
+                        {
+                            "name": "ENTREPRISE ADAM",
+                            "value": 1
+                        },
+                        {
+                            "name": "EPGML",
+                            "value": 1
+                        },
+                        {
+                            "name": "EPINAL_CHAMP_DE_MARS",
+                            "value": 1
+                        },
+                        {
+                            "name": "EPINAL_HALLE_DES_SPORTS",
+                            "value": 1
+                        },
+                        {
+                            "name": "EPINAL_LA_LOUVIERE",
+                            "value": 1
+                        },
+                        {
+                            "name": "EPINAL_PLACE_JEANNE_D'ARC",
+                            "value": 1
+                        },
+                        {
+                            "name": "EPINA_ENSTIB_GOLF",
+                            "value": 1
+                        },
+                        {
+                            "name": "ESCAPE MIND",
+                            "value": 1
+                        },
+                        {
+                            "name": "ESPACE AUTO COURNON",
+                            "value": 1
+                        },
+                        {
+                            "name": "ESPACE TOY MONTAUBAN",
+                            "value": 2
+                        },
+                        {
+                            "name": "ESSO",
+                            "value": 8
+                        },
+                        {
+                            "name": "ETABLISSEMENT DES FILS DE J.MONNIER SAINT BERTHEVIN",
+                            "value": 2
+                        },
+                        {
+                            "name": "ETANCHEITE PARTICULIERS ET INDUSTRIES",
+                            "value": 1
+                        },
+                        {
+                            "name": "EURO DES NATIONS",
+                            "value": 2
+                        },
+                        {
+                            "name": "EUROP&#039;AUTO",
+                            "value": 2
+                        },
+                        {
+                            "name": "EUROREPAR",
+                            "value": 1
+                        },
+                        {
+                            "name": "EVERON",
+                            "value": 2
+                        },
+                        {
+                            "name": "EVZEN",
+                            "value": 3
+                        },
+                        {
+                            "name": "F.B SERVICE",
+                            "value": 1
+                        },
+                        {
+                            "name": "F.B. AUTOMOBILES",
+                            "value": 1
+                        },
+                        {
+                            "name": "FARGES - MANOIR",
+                            "value": 1
+                        },
+                        {
+                            "name": "FAVRET AUTOMOBILES",
+                            "value": 2
+                        },
+                        {
+                            "name": "FDG AUTOMOBILES",
+                            "value": 1
+                        },
+                        {
+                            "name": "FENBAT",
+                            "value": 1
+                        },
+                        {
+                            "name": "FGS",
+                            "value": 1
+                        },
+                        {
+                            "name": "FIBA",
+                            "value": 2
+                        },
+                        {
+                            "name": "FIRSTOP",
+                            "value": 1
+                        },
+                        {
+                            "name": "FLEX-E",
+                            "value": 6
+                        },
+                        {
+                            "name": "FLYOPS",
+                            "value": 1
+                        },
+                        {
+                            "name": "FONCIERE DES PARCS",
+                            "value": 2
+                        },
+                        {
+                            "name": "FOURNIER GUY",
+                            "value": 1
+                        },
+                        {
+                            "name": "FOURNIER SAS",
+                            "value": 1
+                        },
+                        {
+                            "name": "FRANCE ENVIRONNEMENT",
+                            "value": 1
+                        },
+                        {
+                            "name": "FRESMILE",
+                            "value": 3
+                        },
+                        {
+                            "name": "FULGURA",
+                            "value": 6
+                        },
+                        {
+                            "name": "FXM EVENTS",
+                            "value": 1
+                        },
+                        {
+                            "name": "GALILEO",
+                            "value": 2
+                        },
+                        {
+                            "name": "GAMBUS",
+                            "value": 1
+                        },
+                        {
+                            "name": "GAMM VERT",
+                            "value": 8
+                        },
+                        {
+                            "name": "GARAGE CHENE -TOTAL ENERGIES - CITROEN",
+                            "value": 2
+                        },
+                        {
+                            "name": "GARAGE DE LA MARINIERE",
+                            "value": 1
+                        },
+                        {
+                            "name": "GARAGE DE LA PLAINE",
+                            "value": 6
+                        },
+                        {
+                            "name": "GARAGE DE LA SENIA",
+                            "value": 1
+                        },
+                        {
+                            "name": "GARAGE HENRY",
+                            "value": 1
+                        },
+                        {
+                            "name": "GARAGE NELLO CHELI - BEAUNE",
+                            "value": 2
+                        },
+                        {
+                            "name": "GARAGE NELLO CHELLI - DIJON",
+                            "value": 1
+                        },
+                        {
+                            "name": "GARAGE RABAT",
+                            "value": 1
+                        },
+                        {
+                            "name": "GARAGE ZAWIEJA",
+                            "value": 1
+                        },
+                        {
+                            "name": "GARE GEVREY-CHAMBERTIN",
+                            "value": 2
+                        },
+                        {
+                            "name": "GAZ DE BORDEAUX",
+                            "value": 2
+                        },
+                        {
+                            "name": "GCA CAEN",
+                            "value": 2
+                        },
+                        {
+                            "name": "GEANT CASINO",
+                            "value": 10
+                        },
+                        {
+                            "name": "GENEVRAY",
+                            "value": 2
+                        },
+                        {
+                            "name": "GERARDMER_CASINO_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "GERARDMER_DEPORTES_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "GERARDMER_TILLEUL_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "GITE LA VICOMTERIE",
+                            "value": 1
+                        },
+                        {
+                            "name": "GL AUTOMOTIVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "GOLF DE DINARD",
+                            "value": 2
+                        },
+                        {
+                            "name": "GOLF DE LA WANTZENAU",
+                            "value": 1
+                        },
+                        {
+                            "name": "GOOD KING",
+                            "value": 1
+                        },
+                        {
+                            "name": "GRIM AUTO",
+                            "value": 2
+                        },
+                        {
+                            "name": "GROUPAMA SUPPORTS ET SERVICES",
+                            "value": 6
+                        },
+                        {
+                            "name": "GROUPE BERNARD",
+                            "value": 3
+                        },
+                        {
+                            "name": "GROUPE SWEETCO",
+                            "value": 2
+                        },
+                        {
+                            "name": "GUILLAUD TP",
+                            "value": 3
+                        },
+                        {
+                            "name": "H ALU CONCEPT",
+                            "value": 1
+                        },
+                        {
+                            "name": "H&OCIRC;TEL CAMPANILE TALANGE",
+                            "value": 2
+                        },
+                        {
+                            "name": "H&OCIRC;TEL KYRIAD CREPY EN VALOIS",
+                            "value": 2
+                        },
+                        {
+                            "name": "H&OCIRC;TEL KYRIAD PONTARLIER",
+                            "value": 2
+                        },
+                        {
+                            "name": "H&OCIRC;TEL KYRIAD ROUEN SUD VAL DE REUIL",
+                            "value": 2
+                        },
+                        {
+                            "name": "HADOL",
+                            "value": 1
+                        },
+                        {
+                            "name": "HAPOGYS",
+                            "value": 1
+                        },
+                        {
+                            "name": "HCREQUIPUBLIC",
+                            "value": 1
+                        },
+                        {
+                            "name": "HERVE THERMIQUE IRVE",
+                            "value": 4
+                        },
+                        {
+                            "name": "HIPPOPOTAMUS",
+                            "value": 4
+                        },
+                        {
+                            "name": "HONDA",
+                            "value": 2
+                        },
+                        {
+                            "name": "HOPITAL",
+                            "value": 4
+                        },
+                        {
+                            "name": "HOPITAUX MASSIF DES VOSGES",
+                            "value": 8
+                        },
+                        {
+                            "name": "HOSTELLERIE AUX DEUX CLEFS",
+                            "value": 1
+                        },
+                        {
+                            "name": "IBIS CHATEAUCREUX SAINT ETIENNE",
+                            "value": 1
+                        },
+                        {
+                            "name": "IBIS MONT ST MICHEL (TESLA)",
+                            "value": 2
+                        },
+                        {
+                            "name": "IBIS STYLES LILLE A&EACUTE;ROPORT",
+                            "value": 2
+                        },
+                        {
+                            "name": "ICS SCHILTIGHEIM",
+                            "value": 1
+                        },
+                        {
+                            "name": "IDEALJOB",
+                            "value": 2
+                        },
+                        {
+                            "name": "IECHARGE FRANCE",
+                            "value": 3
+                        },
+                        {
+                            "name": "IN-GEO VITO",
+                            "value": 2
+                        },
+                        {
+                            "name": "INDIGO PROPRETE",
+                            "value": 1
+                        },
+                        {
+                            "name": "INFRASTRUCTURES DE RECHARGE POUR VEHICULES ELECTRIQUES (ORGANISATION AUTORECHARGE)",
+                            "value": 1
+                        },
+                        {
+                            "name": "INFRASTRUCTURES DE RECHARGE POUR VEHICULES ELECTRIQUES AUTORECHARGE",
+                            "value": 1
+                        },
+                        {
+                            "name": "INNEOS 1",
+                            "value": 2
+                        },
+                        {
+                            "name": "INTER MARCHE VALLAURIS",
+                            "value": 1
+                        },
+                        {
+                            "name": "IPARRA",
+                            "value": 1
+                        },
+                        {
+                            "name": "ITM CHALLANS DISTRIBUTION",
+                            "value": 1
+                        },
+                        {
+                            "name": "ITM RIEZ - DALILAS",
+                            "value": 1
+                        },
+                        {
+                            "name": "IXINA LE CRES",
+                            "value": 1
+                        },
+                        {
+                            "name": "IXINA SAINT JEAN DE VEDAS",
+                            "value": 1
+                        },
+                        {
+                            "name": "IXINA VILLENEUVE-LES-BEZIERS",
+                            "value": 1
+                        },
+                        {
+                            "name": "J MILLIET",
+                            "value": 2
+                        },
+                        {
+                            "name": "J.H MESGUEN",
+                            "value": 2
+                        },
+                        {
+                            "name": "JARDINERIE D'AVEZE",
+                            "value": 1
+                        },
+                        {
+                            "name": "JCB - LYOMAT",
+                            "value": 4
+                        },
+                        {
+                            "name": "JEAN-CLAUDE BOISSET",
+                            "value": 2
+                        },
+                        {
+                            "name": "JEEP",
+                            "value": 4
+                        },
+                        {
+                            "name": "JFC NORMANDIE EVREUX",
+                            "value": 3
+                        },
+                        {
+                            "name": "JFC NORMANDIE LISIEUX",
+                            "value": 3
+                        },
+                        {
+                            "name": "JMD",
+                            "value": 1
+                        },
+                        {
+                            "name": "JONNARD LES ISSAMBRES",
+                            "value": 1
+                        },
+                        {
+                            "name": "JORIS IDE",
+                            "value": 1
+                        },
+                        {
+                            "name": "KALLISTE RIVE SUD",
+                            "value": 3
+                        },
+                        {
+                            "name": "KEOLIS",
+                            "value": 1
+                        },
+                        {
+                            "name": "KIEHL FRANCE",
+                            "value": 1
+                        },
+                        {
+                            "name": "KYRIAD DIRECT DIJON SUD",
+                            "value": 2
+                        },
+                        {
+                            "name": "KYRIAD DIRECT NEVERS NORD - VARENNES VAUZELLES",
+                            "value": 2
+                        },
+                        {
+                            "name": "L&#039;IMAGINARIUM",
+                            "value": 2
+                        },
+                        {
+                            "name": "L'INCROYABLE",
+                            "value": 1
+                        },
+                        {
+                            "name": "L'OCCASION VALAUTO",
+                            "value": 2
+                        },
+                        {
+                            "name": "L'OXYGENE",
+                            "value": 1
+                        },
+                        {
+                            "name": "L.R. PARTICIPATIONS",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA BASTIDE LES AMOURIERS",
+                            "value": 6
+                        },
+                        {
+                            "name": "LA BOUCHE RIT",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA CONCIERGERIE D'ISA.",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA DILETTANTE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA FARIGOULETTE CIEL A VILLAGE",
+                            "value": 2
+                        },
+                        {
+                            "name": "LA FERME DE LA MOTTE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA FERME DU GRAND AIR",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA HALLE DES PRODUCTEURS",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA JABOTTE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA PRAIRIE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LA RIVE CIELA VILLAGE",
+                            "value": 2
+                        },
+                        {
+                            "name": "LABEL DENT",
+                            "value": 1
+                        },
+                        {
+                            "name": "LABODENT",
+                            "value": 2
+                        },
+                        {
+                            "name": "LABOUR&EACUTE;-ROI",
+                            "value": 3
+                        },
+                        {
+                            "name": "LAMARCHE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE BISTRO D'HUGO",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE CHATEAU DE FONTARECHES",
+                            "value": 2
+                        },
+                        {
+                            "name": "LE CLOS ST. GILLES",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE COLISEE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE COTONNIER NIEPPE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE CREST",
+                            "value": 2
+                        },
+                        {
+                            "name": "LE DOMAINE DES CIGOGNES",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE JARDIN DES CEVENNES",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE KIOSQUE A PIZZAS",
+                            "value": 2
+                        },
+                        {
+                            "name": "LE LION D'OR",
+                            "value": 2
+                        },
+                        {
+                            "name": "LE MANS SUN",
+                            "value": 9
+                        },
+                        {
+                            "name": "LE MORGANE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE REFUGE DES AIGLONS",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE RELAIS",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE RELAIS DE MONTIGNY",
+                            "value": 10
+                        },
+                        {
+                            "name": "LE RELAIS DU MONARQUE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE SAINT JEAN",
+                            "value": 2
+                        },
+                        {
+                            "name": "LE TEMPS DES CERISES",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE TEMPS DES SECRETS",
+                            "value": 1
+                        },
+                        {
+                            "name": "LECCI",
+                            "value": 1
+                        },
+                        {
+                            "name": "LEFEBVRE",
+                            "value": 3
+                        },
+                        {
+                            "name": "LEGELEUX",
+                            "value": 1
+                        },
+                        {
+                            "name": "LELIEUR FERNAND",
+                            "value": 1
+                        },
+                        {
+                            "name": "LES CHEVRONS SOFIDA BRUAY&NDASH; CITRO&EUML;N",
+                            "value": 2
+                        },
+                        {
+                            "name": "LES GARAGES CHAIGNEAU - CHAURAY",
+                            "value": 1
+                        },
+                        {
+                            "name": "LES JARDINS DE LA MATZ",
+                            "value": 1
+                        },
+                        {
+                            "name": "LES JARDINS DE LA SUD",
+                            "value": 1
+                        },
+                        {
+                            "name": "LEVAROY",
+                            "value": 1
+                        },
+                        {
+                            "name": "LE_THILLOT",
+                            "value": 1
+                        },
+                        {
+                            "name": "LIFFOL-LE-GRAND_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "LIGUE OCCITANIE BASKETBALL",
+                            "value": 1
+                        },
+                        {
+                            "name": "LM59810*1",
+                            "value": 2
+                        },
+                        {
+                            "name": "LMS INFORMATIQUE",
+                            "value": 3
+                        },
+                        {
+                            "name": "LOGIS H&OCIRC;TEL LES RIVES DU PLANTI&EACUTE;",
+                            "value": 2
+                        },
+                        {
+                            "name": "LUMIIN",
+                            "value": 1
+                        },
+                        {
+                            "name": "MAIRIE",
+                            "value": 2
+                        },
+                        {
+                            "name": "MAIRIE DE BRAY DUNES",
+                            "value": 1
+                        },
+                        {
+                            "name": "MAIRIE DE GEVREY-CHAMBERTIN",
+                            "value": 2
+                        },
+                        {
+                            "name": "MAIRIE DE GHYVELDE",
+                            "value": 1
+                        },
+                        {
+                            "name": "MAIRIE DE POGGIO D&#039;OLETTA",
+                            "value": 2
+                        },
+                        {
+                            "name": "MAIRIE DE ROGLIANO",
+                            "value": 2
+                        },
+                        {
+                            "name": "MAIRIE VAUDREUILLE",
+                            "value": 2
+                        },
+                        {
+                            "name": "MANOIR DE L ISLE",
+                            "value": 1
+                        },
+                        {
+                            "name": "MANUBOB",
+                            "value": 1
+                        },
+                        {
+                            "name": "MARTIGNY-LES-BAINS_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "MAS DES OLIVES",
+                            "value": 1
+                        },
+                        {
+                            "name": "MBC",
+                            "value": 1
+                        },
+                        {
+                            "name": "MCDONALD'S",
+                            "value": 6
+                        },
+                        {
+                            "name": "MECANIQUE SERVICES",
+                            "value": 4
+                        },
+                        {
+                            "name": "MEDIODENT",
+                            "value": 2
+                        },
+                        {
+                            "name": "MELLONE CONSTRUCTION",
+                            "value": 3
+                        },
+                        {
+                            "name": "MERCEDES AUBIERE",
+                            "value": 4
+                        },
+                        {
+                            "name": "MERCEDES BENZ",
+                            "value": 2
+                        },
+                        {
+                            "name": "MERCURE",
+                            "value": 6
+                        },
+                        {
+                            "name": "METALLERIE PERRUT",
+                            "value": 1
+                        },
+                        {
+                            "name": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+                            "value": 1
+                        },
+                        {
+                            "name": "MG DOUAI GROUPE LEMPEREUR BRAND STORE",
+                            "value": 2
+                        },
+                        {
+                            "name": "MG MOTOR BESAN&CCEDIL;ON - AUTOBERNARD",
+                            "value": 2
+                        },
+                        {
+                            "name": "MGMI",
+                            "value": 1
+                        },
+                        {
+                            "name": "MICKAEL AUTO",
+                            "value": 1
+                        },
+                        {
+                            "name": "MINI BYMYCAR 77",
+                            "value": 3
+                        },
+                        {
+                            "name": "MINI PANEL AUXERRE",
+                            "value": 2
+                        },
+                        {
+                            "name": "MINI PANEL MELUN",
+                            "value": 2
+                        },
+                        {
+                            "name": "MINI STORE TOURS AMPLITUDE AUTOMOBILES",
+                            "value": 2
+                        },
+                        {
+                            "name": "MINOTTI-TRANS",
+                            "value": 2
+                        },
+                        {
+                            "name": "ML AUTOS",
+                            "value": 2
+                        },
+                        {
+                            "name": "MODULO",
+                            "value": 4
+                        },
+                        {
+                            "name": "MON ESPACE CARRELAGE",
+                            "value": 1
+                        },
+                        {
+                            "name": "MONTHUREUX SUR SAONE",
+                            "value": 1
+                        },
+                        {
+                            "name": "MOULIN DE LABOIRIE",
+                            "value": 1
+                        },
+                        {
+                            "name": "MOULINS D'ASCQ",
+                            "value": 2
+                        },
+                        {
+                            "name": "MTP-E",
+                            "value": 2
+                        },
+                        {
+                            "name": "NEVIERE",
+                            "value": 2
+                        },
+                        {
+                            "name": "NEXTENEO",
+                            "value": 4
+                        },
+                        {
+                            "name": "NHOOD59960*1",
+                            "value": 4
+                        },
+                        {
+                            "name": "NIJKERK COMPUTER SOLUTIONS",
+                            "value": 3
+                        },
+                        {
+                            "name": "NOMADE BREWERY",
+                            "value": 1
+                        },
+                        {
+                            "name": "NOMEXY_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "NON CONCERNE",
+                            "value": 1
+                        },
+                        {
+                            "name": "NOR NUIT",
+                            "value": 1
+                        },
+                        {
+                            "name": "NOVABIO",
+                            "value": 2
+                        },
+                        {
+                            "name": "NOVAFFAIRES",
+                            "value": 1
+                        },
+                        {
+                            "name": "NOVALOU",
+                            "value": 10
+                        },
+                        {
+                            "name": "NOVOTEL",
+                            "value": 4
+                        },
+                        {
+                            "name": "O'TERA",
+                            "value": 2
+                        },
+                        {
+                            "name": "OCR MAINTENANCE ELECTRONIQUE",
+                            "value": 1
+                        },
+                        {
+                            "name": "OFFICE NOTARIAL",
+                            "value": 2
+                        },
+                        {
+                            "name": "ORSINI CONSEIL",
+                            "value": 1
+                        },
+                        {
+                            "name": "OUEST MOTORS LANNION",
+                            "value": 2
+                        },
+                        {
+                            "name": "OVERCHEM",
+                            "value": 2
+                        },
+                        {
+                            "name": "PANEL FONTAINEBLEAU MINI",
+                            "value": 2
+                        },
+                        {
+                            "name": "PARC BOIS DIEU",
+                            "value": 2
+                        },
+                        {
+                            "name": "PARC DE PRAGNAT",
+                            "value": 2
+                        },
+                        {
+                            "name": "PARC DEPAGNEUX",
+                            "value": 2
+                        },
+                        {
+                            "name": "PARC LA LAGUNE",
+                            "value": 2
+                        },
+                        {
+                            "name": "PARC LAGUNE SUD",
+                            "value": 2
+                        },
+                        {
+                            "name": "PAS DITINERANCE",
+                            "value": 1
+                        },
+                        {
+                            "name": "PASSAGE MONTGOLFIER",
+                            "value": 2
+                        },
+                        {
+                            "name": "PATRICK GERBER EXPERTISES",
+                            "value": 3
+                        },
+                        {
+                            "name": "PEINTURE ENNESSER",
+                            "value": 1
+                        },
+                        {
+                            "name": "PETAVIT",
+                            "value": 6
+                        },
+                        {
+                            "name": "PHA",
+                            "value": 1
+                        },
+                        {
+                            "name": "PHARMACIE DE HUNDLING",
+                            "value": 1
+                        },
+                        {
+                            "name": "PIERRE LANNIER",
+                            "value": 2
+                        },
+                        {
+                            "name": "PLAINFAING",
+                            "value": 1
+                        },
+                        {
+                            "name": "PM CONCEPTION",
+                            "value": 2
+                        },
+                        {
+                            "name": "PMD AUTOMOBILES",
+                            "value": 2
+                        },
+                        {
+                            "name": "POINT P",
+                            "value": 1
+                        },
+                        {
+                            "name": "POLE DE MEDECINE",
+                            "value": 2
+                        },
+                        {
+                            "name": "POLYBATI",
+                            "value": 1
+                        },
+                        {
+                            "name": "PORT DE L'ILE ROUSSE",
+                            "value": 1
+                        },
+                        {
+                            "name": "PORTE 90",
+                            "value": 1
+                        },
+                        {
+                            "name": "PRE DE MATH",
+                            "value": 2
+                        },
+                        {
+                            "name": "PRECISIUM - RELAIS DE TAVAGNA",
+                            "value": 2
+                        },
+                        {
+                            "name": "PROMOCASH",
+                            "value": 2
+                        },
+                        {
+                            "name": "PROMOD",
+                            "value": 2
+                        },
+                        {
+                            "name": "PROVIBAT",
+                            "value": 1
+                        },
+                        {
+                            "name": "PSA AGENTS FRANCE",
+                            "value": 4
+                        },
+                        {
+                            "name": "PULLMAN",
+                            "value": 1
+                        },
+                        {
+                            "name": "QOWATT",
+                            "value": 6
+                        },
+                        {
+                            "name": "QUINCYPUBLIC",
+                            "value": 1
+                        },
+                        {
+                            "name": "RAON AUX BOIS",
+                            "value": 1
+                        },
+                        {
+                            "name": "RASEAU DE RECHARGE SAS PRIMARD",
+                            "value": 4
+                        },
+                        {
+                            "name": "RECHARGE ABSOLUT",
+                            "value": 1
+                        },
+                        {
+                            "name": "RECHARGE ARTECO",
+                            "value": 1
+                        },
+                        {
+                            "name": "REGUILLON",
+                            "value": 3
+                        },
+                        {
+                            "name": "RENCONTRE-HANDI",
+                            "value": 1
+                        },
+                        {
+                            "name": "RENT A CAR",
+                            "value": 2
+                        },
+                        {
+                            "name": "RESEAU DE CHARGE 17 BOULEVARD CARNOT 03200 VICHY",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE CHARGE AUTORECHARGE",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE ABC",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE ACCOR CASTELNAUDARY",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE BRASSERIE CASTELAIN",
+                            "value": 2
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE BULLE DE LINGE",
+                            "value": 2
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE CENTRAKOR",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE CITEDIA RENNES",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE CROUS PAULIANE",
+                            "value": 2
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE DEBELEC",
+                            "value": 10
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE DOMAINE DES BUFFLONNES",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE ENEDIS NANTES",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE GABORIT",
+                            "value": 2
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE HOPITAL DE CHOLET",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE ISPO FRANCE",
+                            "value": 3
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE JAV",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE L2B",
+                            "value": 2
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE LANGOUET",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE MAIRIE KINTZHEIM",
+                            "value": 2
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE MAIRIE SAINT-BRIEUC",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE MONSIEUR BOISSIER",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE SIPECC",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE SOGESTRAN",
+                            "value": 6
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE SOULIER",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE STATION MOBILE",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESEAU DE RECHARGE VAHE EKNADISSIAN",
+                            "value": 1
+                        },
+                        {
+                            "name": "RESIDENCE",
+                            "value": 8
+                        },
+                        {
+                            "name": "RESTAURANT",
+                            "value": 3
+                        },
+                        {
+                            "name": "REVE",
+                            "value": 2
+                        },
+                        {
+                            "name": "RIVIERA CAR CENTER",
+                            "value": 3
+                        },
+                        {
+                            "name": "RME LOOS (FR-FR1)",
+                            "value": 9
+                        },
+                        {
+                            "name": "ROADY SERVICE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ROBOTIC COVER CONCEPT",
+                            "value": 1
+                        },
+                        {
+                            "name": "ROVILLE-AUX-CHENES_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ROYAN RAVALEMENT SERVICES",
+                            "value": 1
+                        },
+                        {
+                            "name": "RUPT-SUR-MOSELLE_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SA BEYNEL ET FILS",
+                            "value": 2
+                        },
+                        {
+                            "name": "SA GLASTINT",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAEMES",
+                            "value": 7
+                        },
+                        {
+                            "name": "SAINT AME",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAINT-MAURICE-SUR-MOSELLE_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAINT-NABORD_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAINTE-MARGUERITE_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SALADE & CO",
+                            "value": 2
+                        },
+                        {
+                            "name": "SALLE &AGRAVE; USAGE MULTIPLE NELSON MANDELA",
+                            "value": 2
+                        },
+                        {
+                            "name": "SAMSE - ERP COMBOIRE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SANYA MARKET",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAP",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAP LABS FRANCE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SARL CASTEL CONTROLE",
+                            "value": 2
+                        },
+                        {
+                            "name": "SARL ECG",
+                            "value": 2
+                        },
+                        {
+                            "name": "SARL GRARE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SARL LE BOIS DE CORNAGE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SARL VIGOT",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAS CIGIMMO",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAS CIGIMMO 4",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAS SOGAMA ? CITROEN",
+                            "value": 2
+                        },
+                        {
+                            "name": "SAS VANDENBUSSCHE",
+                            "value": 2
+                        },
+                        {
+                            "name": "SATORIZ GRENOBLE ROCADE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAULCY_SUR_MEURTHE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SAVOIE MOTORS ALBERTVILLE",
+                            "value": 2
+                        },
+                        {
+                            "name": "SC FRANETTI",
+                            "value": 1
+                        },
+                        {
+                            "name": "SC PIOLET",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI 35 RUE DE ROUBAIX",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI CAP IMMO",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI CD",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI DU CHATEAU D AVENY",
+                            "value": 4
+                        },
+                        {
+                            "name": "SCI GADMP",
+                            "value": 2
+                        },
+                        {
+                            "name": "SCI LA GRANGE DESSOUS",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI LES RUISSEAUX",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI LOUNAPIOU",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI OLYMPE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCI PARAMEDICA",
+                            "value": 1
+                        },
+                        {
+                            "name": "SCIC SEMPIN",
+                            "value": 1
+                        },
+                        {
+                            "name": "SDC CONSTELLATION",
+                            "value": 1
+                        },
+                        {
+                            "name": "SDC ORDINAL",
+                            "value": 1
+                        },
+                        {
+                            "name": "SEAT",
+                            "value": 3
+                        },
+                        {
+                            "name": "SEAT ABVV EPINAY-SUR-SEINE",
+                            "value": 3
+                        },
+                        {
+                            "name": "SECURECHARGE",
+                            "value": 3
+                        },
+                        {
+                            "name": "SECURITEST",
+                            "value": 1
+                        },
+                        {
+                            "name": "SEPRIC",
+                            "value": 2
+                        },
+                        {
+                            "name": "SEPTENTRION FINANCES",
+                            "value": 1
+                        },
+                        {
+                            "name": "SERITUDE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SETE UTILITAIRES",
+                            "value": 4
+                        },
+                        {
+                            "name": "SICOBAL",
+                            "value": 2
+                        },
+                        {
+                            "name": "SIGMA TEC",
+                            "value": 1
+                        },
+                        {
+                            "name": "SIXT",
+                            "value": 4
+                        },
+                        {
+                            "name": "SIXT LOCATION DE VOITURES",
+                            "value": 2
+                        },
+                        {
+                            "name": "SKODA",
+                            "value": 1
+                        },
+                        {
+                            "name": "SKYMAT",
+                            "value": 1
+                        },
+                        {
+                            "name": "SMART",
+                            "value": 1
+                        },
+                        {
+                            "name": "SMI",
+                            "value": 1
+                        },
+                        {
+                            "name": "SNS SOLUTIONS MARSEILLE",
+                            "value": 1
+                        },
+                        {
+                            "name": "SOLIDARAUTO 49",
+                            "value": 1
+                        },
+                        {
+                            "name": "SOLLIX",
+                            "value": 1
+                        },
+                        {
+                            "name": "SPIE BATIGNOLLES PETAVIT",
+                            "value": 2
+                        },
+                        {
+                            "name": "SQUASH CLUB SAINT-ETIENNE",
+                            "value": 1
+                        },
+                        {
+                            "name": "STADE CLAUDE PAPI",
+                            "value": 1
+                        },
+                        {
+                            "name": "STATION CIEL",
+                            "value": 4
+                        },
+                        {
+                            "name": "STATION DE RECHARGE LE GRAND LARGE",
+                            "value": 1
+                        },
+                        {
+                            "name": "STATION EUROTYRE",
+                            "value": 1
+                        },
+                        {
+                            "name": "STATION LOUIS PRADEL",
+                            "value": 2
+                        },
+                        {
+                            "name": "STATION LUMIIN",
+                            "value": 3
+                        },
+                        {
+                            "name": "STATION MATTIEU ET PAULINE",
+                            "value": 1
+                        },
+                        {
+                            "name": "STATION MICHEL AULAS",
+                            "value": 2
+                        },
+                        {
+                            "name": "STATION PETITE GROSNE",
+                            "value": 2
+                        },
+                        {
+                            "name": "STATION THEODORE BRAUN",
+                            "value": 2
+                        },
+                        {
+                            "name": "STBM",
+                            "value": 1
+                        },
+                        {
+                            "name": "STUDIO30",
+                            "value": 1
+                        },
+                        {
+                            "name": "STYLE AND DESIGN",
+                            "value": 1
+                        },
+                        {
+                            "name": "SU GUNDERSCHOFFEN - SAS SODIHARDT",
+                            "value": 1
+                        },
+                        {
+                            "name": "SUN DEVELOPPEMENT",
+                            "value": 4
+                        },
+                        {
+                            "name": "SUPER U",
+                            "value": 6
+                        },
+                        {
+                            "name": "SUPERU - EVRON",
+                            "value": 2
+                        },
+                        {
+                            "name": "SUZUKI",
+                            "value": 4
+                        },
+                        {
+                            "name": "SUZUKI AUTOMOBILES",
+                            "value": 3
+                        },
+                        {
+                            "name": "SYNDICAT INTERCOMMUNAL DE CESSON ET VERT-SAINT-DENIS",
+                            "value": 1
+                        },
+                        {
+                            "name": "TAINTRUX",
+                            "value": 1
+                        },
+                        {
+                            "name": "TALK FUNDRAISING",
+                            "value": 1
+                        },
+                        {
+                            "name": "TECHOFFICE",
+                            "value": 1
+                        },
+                        {
+                            "name": "TENTE",
+                            "value": 2
+                        },
+                        {
+                            "name": "TERRASSES DE LA MADELEINE",
+                            "value": 2
+                        },
+                        {
+                            "name": "TERRITOIRE D'ENERGIE ORNE",
+                            "value": 2
+                        },
+                        {
+                            "name": "TISSERANT",
+                            "value": 1
+                        },
+                        {
+                            "name": "TOUFFLIN MTP",
+                            "value": 2
+                        },
+                        {
+                            "name": "TRISCOS AUTOMOBILES",
+                            "value": 1
+                        },
+                        {
+                            "name": "TV MOSAIK CRISTAL",
+                            "value": 1
+                        },
+                        {
+                            "name": "UBITRICITY FRANCE NETWORK",
+                            "value": 3
+                        },
+                        {
+                            "name": "UCPA BOMBANNES",
+                            "value": 1
+                        },
+                        {
+                            "name": "USINE",
+                            "value": 2
+                        },
+                        {
+                            "name": "VAL DE LOIRE AUTOMOBILES SAUMUR",
+                            "value": 5
+                        },
+                        {
+                            "name": "VEGETALIS",
+                            "value": 1
+                        },
+                        {
+                            "name": "VENTRON",
+                            "value": 1
+                        },
+                        {
+                            "name": "VIKING CASINOS",
+                            "value": 1
+                        },
+                        {
+                            "name": "VIKINGS CASINO FREJUS",
+                            "value": 4
+                        },
+                        {
+                            "name": "VILLA PRIMEROSE",
+                            "value": 2
+                        },
+                        {
+                            "name": "VITRO SERVICE FRANCE",
+                            "value": 7
+                        },
+                        {
+                            "name": "VITTEL_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "WEECHARGE",
+                            "value": 2
+                        },
+                        {
+                            "name": "WICKER TP",
+                            "value": 2
+                        },
+                        {
+                            "name": "XERTIGNY_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "XONRUPT-LONGEMER_IRVE",
+                            "value": 1
+                        },
+                        {
+                            "name": "YAWAY RECHARGE",
+                            "value": 2
+                        },
+                        {
+                            "name": "Z-E-N",
+                            "value": 1
+                        },
+                        {
+                            "name": "ZEBONRNE",
+                            "value": 1
+                        },
+                        {
+                            "name": "ZEN COSNTRUCTION",
+                            "value": 1
+                        },
+                        {
+                            "name": "ZENPARK",
+                            "value": 1
+                        }
+                    ],
+                    "name": "Autres"
+                }
+            ],
+            "name": "Autres"
+        }
+    ],
+    "name": "flare"
+}
