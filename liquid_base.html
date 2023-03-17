@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts-liquidfill.min.js"></script>
+
+</head>
+<body >
+    <div id="liquid_gratuit" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="liquid_cb" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_liquid_gratuit = echarts.init(
+            document.getElementById('liquid_gratuit'), 'white', {renderer: 'canvas'});
+        var option_liquid_gratuit = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+        "backgroundStyle": {
+            "borderWidth": 5,
+            "borderColor": '#333333',
+            "color": 'yellow'
+        },
+    
+    "series": [
+        {
+            "type": "liquidFill",
+            "name": "Privé",
+            "data": [
+                0.08
+            ],
+        "outline": {
+            "show": false
+        },
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#EDDC1F"
+            ],
+            "shape": "circle",
+            "backgroundStyle": {},
+            "outline": {
+                "show": true,
+                "borderDistance": 8
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "formatter": '{a}\n\n 8 % ',
+                            "fontSize": 30
+
+            },
+            "center": [
+                "60%",
+                "50%"
+            ],
+            "xAxisIndex": 0,
+            "yAxisIndex": 0
+        },
+        {
+            "type": "liquidFill",
+            "name": "Public",
+            "data": [
+                0.15
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#6E660E"
+                
+            ],
+            "shape": "circle",
+            "backgroundStyle": {},
+            "outline": {
+                "show": true,
+                "borderDistance": 8
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "formatter": '{a}\n\n 15 % ',
+                            "fontSize": 30
+            },
+            "center": [
+                "25%",
+                "50%"
+            ],
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Part de bornes gratuites",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_liquid_gratuit.setOption(option_liquid_gratuit);
+    </script>
+</body>
+</html>

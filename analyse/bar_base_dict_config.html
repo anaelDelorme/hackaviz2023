@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/themes/macarons.js"></script>
+
+</head>
+<body >
+    <div id="449b174de309453083dc962fe6bd2489" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_449b174de309453083dc962fe6bd2489 = echarts.init(
+            document.getElementById('449b174de309453083dc962fe6bd2489'), 'macarons', {renderer: 'canvas'});
+        var option_449b174de309453083dc962fe6bd2489 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar",
+            "name": "gratuit",
+            "legendHoverLink": true,
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "paiement_cb",
+            "legendHoverLink": true,
+            "realtimeSort": false,
+            "showBackground": false,
+            "stackStrategy": "samesign",
+            "cursor": "pointer",
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "gratuit",
+                "paiement_cb"
+            ],
+            "selected": {
+                "gratuit": true,
+                "paiement_cb": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "dataset": [
+        {
+            "source": [
+                [
+                    "Type",
+                    "gratuit",
+                    "paiement_cb",
+                    "nom_station"
+                ],
+                [
+                    "Autres",
+                    12.0,
+                    53.0,
+                    100100
+                ],
+                [
+                    "Commune",
+                    0.0,
+                    0.0,
+                    5200
+                ],
+                [
+                    "Constructeur automobile",
+                    9.0,
+                    82.0,
+                    121400
+                ],
+                [
+                    "D\u00e9partement",
+                    2.0,
+                    42.0,
+                    496800
+                ],
+                [
+                    "Entreprise",
+                    0.0,
+                    0.0,
+                    4900
+                ],
+                [
+                    "H\u00f4tel Restaurant Camping",
+                    7.0,
+                    67.0,
+                    22700
+                ],
+                [
+                    "Interd\u00e9partement",
+                    0.0,
+                    76.0,
+                    230100
+                ],
+                [
+                    "Magasin",
+                    43.0,
+                    57.0,
+                    10600
+                ],
+                [
+                    "M\u00e9tropole",
+                    14.0,
+                    30.0,
+                    155300
+                ],
+                [
+                    "Op\u00e9rateur sp\u00e9cialis\u00e9",
+                    6.0,
+                    84.0,
+                    1043100
+                ],
+                [
+                    "Parking et voirie",
+                    19.0,
+                    3.0,
+                    163600
+                ],
+                [
+                    "R\u00e9gion",
+                    30.0,
+                    4.0,
+                    679200
+                ],
+                [
+                    "Supermarch\u00e9",
+                    23.0,
+                    14.0,
+                    3500
+                ]
+            ]
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "Dataset simple bar example",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_449b174de309453083dc962fe6bd2489.setOption(option_449b174de309453083dc962fe6bd2489);
+    </script>
+</body>
+</html>

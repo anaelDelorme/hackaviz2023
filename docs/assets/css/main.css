@@ -2311,15 +2311,21 @@ input, select, textarea {
 		background-repeat:  no-repeat;
 	}
 
-/* One */
+/* enseigne_type */
 
-	#one {
+	#enseigne_type {
 		background: url("images/overlay.png"), url("../../images/cars.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
+				#strategie_enseigne {
+					background-color: #39454b;
+					background-size: 256px 256px, cover;
+					background-attachment: fixed, fixed;
+					background-position: top left, center center;
+				}
 /* Two */
 
 	#info {
@@ -2454,3 +2460,21 @@ input, select, textarea {
 					transform: translateX(-50%);
 					white-space: nowrap;
 				}
+
+
+.reset-button {
+	background-color: #333333;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 13px;
+	cursor: pointer;
+	padding: 5px 10px;
+		/* ajouter cette propriété pour réduire la hauteur */
+		line-height: 10px;
+		/* ajouter cette propriété pour centrer le texte */
+}
+
+.reset-button:hover {
+	background-color: #555555;
+}

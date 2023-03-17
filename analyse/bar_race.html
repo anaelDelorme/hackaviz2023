@@ -1,0 +1,2370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="705ea22415eb40dfa816b687602f5ffc" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_705ea22415eb40dfa816b687602f5ffc = echarts.init(
+            document.getElementById('705ea22415eb40dfa816b687602f5ffc'), 'white', {renderer: 'canvas'});
+        var option_705ea22415eb40dfa816b687602f5ffc = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "bar",
+                "legendHoverLink": true,
+                "data": [
+                    {
+                        "name": "Auvergne-Rh\u00f4ne-Alpes",
+                        "value": 4589.0
+                    },
+                    {
+                        "name": "Bourgogne-Franche-Comt\u00e9",
+                        "value": 5996.0
+                    },
+                    {
+                        "name": "Bretagne",
+                        "value": 8632.0
+                    },
+                    {
+                        "name": "Centre-Val de Loire",
+                        "value": 9269.0
+                    },
+                    {
+                        "name": "Corse",
+                        "value": 9387.0
+                    },
+                    {
+                        "name": "Grand Est",
+                        "value": 12547.0
+                    },
+                    {
+                        "name": "Hauts-de-France",
+                        "value": 16870.0
+                    },
+                    {
+                        "name": "Normandie",
+                        "value": 19651.0
+                    },
+                    {
+                        "name": "Nouvelle-Aquitaine",
+                        "value": 23890.0
+                    },
+                    {
+                        "name": "Occitanie",
+                        "value": 30181.0
+                    },
+                    {
+                        "name": "Pays de la Loire",
+                        "value": 33183.0
+                    },
+                    {
+                        "name": "Provence-Alpes-C\u00f4te d'Azur",
+                        "value": 36459.0
+                    },
+                    {
+                        "name": "\u00cele-de-France",
+                        "value": 45931.0
+                    }
+                ],
+                "realtimeSort": false,
+                "showBackground": false,
+                "stackStrategy": "samesign",
+                "cursor": "pointer",
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": true,
+                    "position": "right",
+                    "margin": 8
+                },
+                "itemStyle": {
+                    "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "currentIndex": 0,
+            "orient": "horizontal",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 1000,
+            "bottom": "-5px",
+            "progress": {},
+            "data": [
+                "2014",
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020",
+                "2021",
+                "2022",
+                "2023"
+            ]
+        },
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "max": 45931.0,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": true,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ],
+        "yAxis": [
+            {
+                "type": "category",
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "axisLabel": {
+                    "show": true,
+                    "margin": 8
+                },
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": true,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": null
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 10.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 4590.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 6006.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": null
+                        },
+                        {
+                            "name": "Corse",
+                            "value": null
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 9390.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 12584.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 16876.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 19666.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 23920.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 30186.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 33193.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 36601.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 36601.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 10.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 4590.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 6010.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": null
+                        },
+                        {
+                            "name": "Corse",
+                            "value": null
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 9390.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 12584.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 16922.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 19714.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 23921.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 30186.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 33193.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 36693.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 36693.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 11.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 4590.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 6338.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": null
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9269.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 9390.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 12586.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 17236.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 19969.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 23961.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 30186.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 33193.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 36931.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 36931.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 195.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 4743.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 6672.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": 8633.0
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9269.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 9487.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 13001.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 17768.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 20213.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 24896.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 30186.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 33198.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 37080.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 37080.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 230.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 4803.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 6745.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": 8649.0
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9269.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 9697.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 13181.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 17834.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 20326.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 25636.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 30213.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 33564.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 37313.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 37313.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 421.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 4869.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 7400.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": 8655.0
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9271.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 9844.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 14331.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 17853.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 20378.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 26066.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 30233.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 33696.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 37522.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 37522.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 2190.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 5282.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 7865.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": 8686.0
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9276.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 10203.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 14795.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 17916.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 22095.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 26363.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 30251.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 34499.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 39040.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 39040.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 3210.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 5615.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 8215.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": 8995.0
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9297.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 11194.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 15619.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 18809.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 22988.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 29062.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 32680.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 35551.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 43395.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 43395.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 4547.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 5988.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 8618.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": 9245.0
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9387.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 12510.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 16840.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 19600.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 23877.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 30154.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 33180.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 36430.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 45858.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 45858.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "legendHoverLink": true,
+                    "data": [
+                        {
+                            "name": "Auvergne-Rh\u00f4ne-Alpes",
+                            "value": 4589.0
+                        },
+                        {
+                            "name": "Bourgogne-Franche-Comt\u00e9",
+                            "value": 5996.0
+                        },
+                        {
+                            "name": "Bretagne",
+                            "value": 8632.0
+                        },
+                        {
+                            "name": "Centre-Val de Loire",
+                            "value": 9269.0
+                        },
+                        {
+                            "name": "Corse",
+                            "value": 9387.0
+                        },
+                        {
+                            "name": "Grand Est",
+                            "value": 12547.0
+                        },
+                        {
+                            "name": "Hauts-de-France",
+                            "value": 16870.0
+                        },
+                        {
+                            "name": "Normandie",
+                            "value": 19651.0
+                        },
+                        {
+                            "name": "Nouvelle-Aquitaine",
+                            "value": 23890.0
+                        },
+                        {
+                            "name": "Occitanie",
+                            "value": 30181.0
+                        },
+                        {
+                            "name": "Pays de la Loire",
+                            "value": 33183.0
+                        },
+                        {
+                            "name": "Provence-Alpes-C\u00f4te d'Azur",
+                            "value": 36459.0
+                        },
+                        {
+                            "name": "\u00cele-de-France",
+                            "value": 45931.0
+                        }
+                    ],
+                    "realtimeSort": false,
+                    "showBackground": false,
+                    "stackStrategy": "samesign",
+                    "cursor": "pointer",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "color":                     function(params) {                        var colorList = [                          '#C1232B','#B5C334','#FCCE10','#E87C25','#27727B',                          '#FE8463','#9BCA63','#FAD860','#F3A43B','#60C0DD',                          '#D7504B','#C6E579','#F4E001','#F0805A','#26C0C0'                        ];                        return colorList[params.dataIndex % colorList.length];                    }                    
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 45931.0,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "category",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": null
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        }
+    ]
+};
+        chart_705ea22415eb40dfa816b687602f5ffc.setOption(option_705ea22415eb40dfa816b687602f5ffc);
+    </script>
+</body>
+</html>
